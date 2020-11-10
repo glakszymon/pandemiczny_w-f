@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Brzuszki", 
+        "file": "brzuszki.md",
+        "image": "brzuszki.jpg"
+    },
+    {
+        "name": "Pompki", 
+        "file": "pompki.md",
+        "image": "pompki.jpg"
+    }
+]
