@@ -13,6 +13,7 @@ var app = new Vue({
       axios.get('data/list.json')
       .then(function (response) {
         app.exerciseList = response.data;
+        console.log(app.exerciseList);
       })
       .catch(function (error) {
         console.log(error);
