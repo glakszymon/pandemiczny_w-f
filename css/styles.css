@@ -53,3 +53,8 @@ li {
   color: rgb(255, 255, 255);
   cursor: pointer;
 }
+
+.menu_cwiczen:hover{
+  transition: color 0.7s ease-in-out 0.7s;
+  color: red;
+}
