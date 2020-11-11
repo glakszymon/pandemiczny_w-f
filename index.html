@@ -20,11 +20,12 @@
   <div id="app">
     <div class="sidenav">
       <ul>
-        <li class="menu_cwiczen" v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)">
-          {{exercise.name}}
+        <li class="menu_cwiczen" v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)"
+          v-bind:class="{activeButton: (exercise.file == current)}">          
+        {{exercise.name}}
         </li>
       </ul>
-      </div>
+      </div> 
       
       <div class="content" id="content">
         <h2>CSS Template</h2>
