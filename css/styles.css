@@ -11,7 +11,7 @@ body {
 /* Style the side navigation */
 .sidenav {
   height: 100%;
-  width: 200px;
+  width: 250px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -39,6 +39,7 @@ body {
 .content {
   margin-left: 200px;
   padding-left: 20px;
+  height: 100%;
 }
 
 ul {
@@ -69,10 +70,10 @@ body{
   background: rgb(255, 255, 255);
   background: linear-gradient(90deg, rgb(255, 255, 255, 1) 0%, rgba(252,252,252,1) 0%, rgb(187, 187, 187) 100%); 
 }
-.tytul{font-size: 20px;
+.tytul{font-size: 25px;
   font-weight: bold;
   font-style: italic;
-  padding: 15px 10px;
+  padding: 10px 10px;
   margin: 0;
   text-align: center;
   color: white;
