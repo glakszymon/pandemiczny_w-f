@@ -15,7 +15,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #555;
   overflow-x: hidden;
 }
 
@@ -48,9 +48,8 @@ ul {
   list-style: none;
 }
 li {
-  padding: 5px 0px;
-  margin: 10 0px;
-  border-bottom: 1px solid rgba(255, 251, 0, 0.2);
+  padding: 15px 0px;
+  border-bottom: 1px solid rgba(255, 208, 0, 0.267);
   color: rgb(255, 255, 255);
   cursor: pointer;
 }
