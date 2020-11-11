@@ -1,7 +1,8 @@
 var app = new Vue({
   el: '#app',
   data: {
-    exerciseList: []
+    exerciseList: [],
+    current = null
   },
   methods: {
     init: function() {
@@ -34,6 +35,8 @@ var app = new Vue({
         var converter = new showdown.Converter(),
         html = converter.makeHtml(response.data);
         document.getElementById('content').innerHTML = html;
+      
+        this.carrent = exercise.file
       })
       .catch(function (error) {
         console.log(error);
