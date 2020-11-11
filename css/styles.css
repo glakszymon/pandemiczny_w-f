@@ -61,4 +61,5 @@ li {
 }
 .activeButton {
   background-color: royalblue;
+  color: chartreuse;
 }
