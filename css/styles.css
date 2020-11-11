@@ -37,7 +37,7 @@ body {
 
 /* Style the content */
 .content {
-  margin-left: 200px;
+  margin-left: 250px;
   padding-left: 20px;
   height: 100%;
 }
@@ -70,7 +70,7 @@ body{
   background: rgb(255, 255, 255);
   background: linear-gradient(90deg, rgb(255, 255, 255, 1) 0%, rgba(252,252,252,1) 0%, rgb(187, 187, 187) 100%); 
 }
-.tytul{font-size: 25px;
+.tytul{
   font-weight: bold;
   font-style: italic;
   padding: 10px 10px;
@@ -78,4 +78,8 @@ body{
   text-align: center;
   color: white;
   background-color: black;
+  }
+
+  .tytul span {
+  font-size: 22px;
   }
