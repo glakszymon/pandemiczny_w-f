@@ -63,3 +63,8 @@ li {
   background-color: rgba(33, 25, 80, 0.568);
 
 }
+
+#content{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 0%, rgba(149,149,149,1) 100%); 
+}
