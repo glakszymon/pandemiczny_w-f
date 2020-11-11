@@ -23,6 +23,9 @@ var app = new Vue({
       .then(function (response) {
         // app.exerciseList = response.data;
         console.log(response.data);
+        var converter = new showdown.Converter(),
+        html = converter.makeHtml(response.data);
+        document.getElementById('content').innerHTML = html;
       })
       .catch(function (error) {
         console.log(error);
