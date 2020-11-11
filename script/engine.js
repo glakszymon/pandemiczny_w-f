@@ -2,7 +2,7 @@ var app = new Vue({
   el: '#app',
   data: {
     exerciseList: [],
-    current: null
+    currentFile: null
   },
   methods: {
     init: function() {
@@ -35,7 +35,7 @@ var app = new Vue({
         html = converter.makeHtml(response.data);
         document.getElementById('content').innerHTML = html;
       
-        //app.current = currentExercise.file;
+        //app.currentFile = currentExercise.file;
       })
       .catch(function (error) {
         console.log(error);
