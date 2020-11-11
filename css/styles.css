@@ -38,7 +38,7 @@ body {
 /* Style the content */
 .content {
   margin-left: 250px;
-  padding-left: 20px;
+  padding: 0 20px;
   height: 100%;
 }
 
@@ -85,7 +85,9 @@ body{
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 30px;
+    border-bottom: 1px black;
+    border-bottom-style: solid;
   }
   
   h2 {
@@ -93,5 +95,5 @@ body{
   }
 
   h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
