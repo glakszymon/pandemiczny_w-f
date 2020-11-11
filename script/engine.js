@@ -35,7 +35,7 @@ var app = new Vue({
         html = converter.makeHtml(response.data);
         document.getElementById('content').innerHTML = html;
       
-        //this.current = currentExercis.file;
+        app.current = currentExercis.file;
       })
       .catch(function (error) {
         console.log(error);
