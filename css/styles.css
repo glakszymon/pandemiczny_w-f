@@ -83,3 +83,15 @@ body{
   .tytul span {
   font-size: 22px;
   }
+
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 23px;
+  }
