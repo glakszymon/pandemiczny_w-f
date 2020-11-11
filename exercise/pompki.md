@@ -1,8 +1,7 @@
-Nazwa:
-Pompki
+# Pompki
 
-Opis:
+### Opis:
 Pozycja do deski(Plank posision) z rękami po bokach ciała. Opuszczamy ciało na rękach i podnosimy.
 
-Link do filmu:
-https://www.youtube.com/watch?v=dqVKoZSXwrk
+### Link do filmu:
+[https://www.youtube.com/watch?v=dqVKoZSXwrk](https://www.youtube.com/watch?v=dqVKoZSXwrk)
