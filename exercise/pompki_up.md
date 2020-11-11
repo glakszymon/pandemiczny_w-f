@@ -1,4 +1,4 @@
-# Pompki „na podwyższeniu"
+# Pompki na podwyższeniu
 
 ### Opis:
 Ustawiamy pozycję do pompek z rękami opartymi o podwyższenie. Wykonujemy ćwiczenie pompka.
