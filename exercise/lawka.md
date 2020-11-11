@@ -1,4 +1,4 @@
-# Pompki - z podparciem stóp o ławeczkę
+# Pompki z podparciem stóp o ławeczkę
 
 ### Opis:
 Pozycja do pompki z opartymi nogami o ławkę. Wykonujemy ćwiczenie pompka.
