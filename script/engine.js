@@ -28,13 +28,14 @@ var app = new Vue({
       });
     },
     opis_cwiczenia: function (exercise){
+      let currentExercis = exercise;
       axios.get('exercise/'+ exercise.file)
       .then(function (response) {
         var converter = new showdown.Converter(),
         html = converter.makeHtml(response.data);
         document.getElementById('content').innerHTML = html;
       
-        this.current = exercise.file;
+        this.current = currentExercis.file;
       })
       .catch(function (error) {
         console.log(error);
