@@ -55,6 +55,6 @@ li {
 }
 
 .menu_cwiczen:hover{
-  transition: color 0.7s linear;
+  transition: color 0.5s linear;
   color: red;
 }
