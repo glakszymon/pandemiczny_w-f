@@ -13,7 +13,16 @@ var app = new Vue({
       axios.get('data/list.json')
       .then(function (response) {
         app.exerciseList = response.data;
-        console.log(app.exerciseList);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+    },
+    opis_cwiczenia: function (exercise){
+      axios.get('exercise/'+ exercise.file)
+      .then(function (response) {
+        // app.exerciseList = response.data;
+        console.log(response.data);
       })
       .catch(function (error) {
         console.log(error);
@@ -21,6 +30,7 @@ var app = new Vue({
     }
   }
 })
+
 
 
 app.init();

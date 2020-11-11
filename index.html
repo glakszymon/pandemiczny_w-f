@@ -22,9 +22,9 @@
         <a href="#">Link</a>
         <a href="#">Link</a>
 
-        <a class="scena_przycisk" v-for="exercise in exerciseList" v-on:click="zmiana_lokalizacji(lokalizacja)">
-        {{ exercise.name }}
-        </a>
+        <button class="scena_przycisk" v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)">
+        {{exercise.name}}
+        </button>
       </div>
       
       <div class="content">
