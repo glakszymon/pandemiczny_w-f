@@ -21,7 +21,7 @@
     <div class="sidenav">
       <ul>
         <li class="menu_cwiczen" v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)"
-          v-bind:class="{activeButton: (exercise.file != current)}">          
+          v-bind:class="{activeButton: (exercise.file = current)}">          
         {{exercise.name}}
         </li>
       </ul>
