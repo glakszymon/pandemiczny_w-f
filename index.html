@@ -19,13 +19,11 @@
 <body>
   <div id="app">
     <div class="sidenav">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-
-        <button class="scena_przycisk" v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)">
+      <ul>
+        <li class="scena_przycisk" v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)">
         {{exercise.name}}
-        </button>
+        </li>
+      </ul>
       </div>
       
       <div class="content" id="content">
