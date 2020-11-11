@@ -60,6 +60,6 @@ li {
   background-color: rgba(187, 187, 187, 0.568)
 }
 .activeButton {
-  background-color: royalblue;
-  color: chartreuse;
+  background-color: rgba(33, 25, 80, 0.568);
+
 }
