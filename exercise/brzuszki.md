@@ -1,6 +1,6 @@
 # Brzuszki
 
-### Opis:
+## Opis:
 Kładziemy się na plecach, zginamy kolana. Podnosimy górną część ciała i opuszczamy.
 
 
