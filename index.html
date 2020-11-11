@@ -20,7 +20,7 @@
   <div id="app">
     <div class="sidenav">
       <ul>
-        <li v-bind:class="{activeButton: (exercise.file = currentFile)}" class="menu_cwiczen" 
+        <li class="menu_cwiczen" v-bind:class="{activeButton: (exercise.file == currentFile)}"
           v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)">          
         {{exercise.name}}
         </li>
