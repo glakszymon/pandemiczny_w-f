@@ -30,8 +30,6 @@ var app = new Vue({
     opis_cwiczenia: function (exercise){
       axios.get('exercise/'+ exercise.file)
       .then(function (response) {
-        // app.exerciseList = response.data;
-        // console.log(response.data);
         var converter = new showdown.Converter(),
         html = converter.makeHtml(response.data);
         document.getElementById('content').innerHTML = html;
