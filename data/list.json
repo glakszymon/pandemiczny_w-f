@@ -8,5 +8,100 @@
         "name": "Pompki", 
         "file": "pompki.md",
         "image": "pompki.jpg"
+    },
+    {
+        "name": "Squat / Przysiad", 
+        "file": "przysiad.md",
+        "image": ".jpg"
+    },
+    {
+        "name": "Wypady nóg / Forward Lunges", 
+        "file": "wypady.md",
+        "image": "brzuszki.jpg"
+    },
+    {
+        "name": "Unoszenie nóg w 4 ruchach", 
+        "file": "nogi_4_ruchy.md",
+        "image": "brzuszki.jpg"
+    },
+    {
+        "name": "Tricep bench dips / Ćwiczenie na Triceps", 
+        "file": "triceps.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Stretching Mięśnia Biodrowo-Piszczelowego", 
+        "file": "stretching_biodrowo-piszczelowego.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Step Ups", 
+        "file": "step_ups.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Skip A w miejscu / High Knees Running In Place", 
+        "file": "skip_a.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Side Plank", 
+        "file": "side_plank.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Push-Ups With Torso Rotation", 
+        "file": "rotation.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Pompki na podwyższeniu", 
+        "file": "pompki_up.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Pompki typu V (ze ściśniętymi dłońmi)", 
+        "file": "v.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Pompki na kolanach - dłoniach w diament", 
+        "file": "diament.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Pompki z podparciem stóp o ławeczkę", 
+        "file": "lawka.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Naprzemienne spięcia brzucha", 
+        "file": "naprzemienne_spiecia_brzucha.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Pajacyki", 
+        "file": "pajacyki.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Krzesło / Wall Sit", 
+        "file": "krzeslo.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Deska / Plank", 
+        "file": "deska.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Brzuszki z przysuwaniem kolan do klatki piersiowej", 
+        "file": "brzuszki_z_przysuwaniem_kolan.md",
+        "image": "pompki.jpg"
+    },
+    {
+        "name": "Brzuszki z nogami uniesionymi pionowo i dotykaniem kostek", 
+        "file": "brzuszki_z_nogami.md",
+        "image": "pompki.jpg"
     }
 ]
