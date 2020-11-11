@@ -1,4 +1,4 @@
-# Squat / przysiad
+# Squat / Przysiad
 
 ### Opis:
 stajemy w ozycji wyprostowanej. Przysiadamy jak najbardziej możemy, starając się ciągle mieć proste plecy.
