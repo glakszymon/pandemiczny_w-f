@@ -55,8 +55,8 @@ li {
 }
 
 .menu_cwiczen:hover{
-  transition: color 0.5s linear;
-  color: rgb(163, 163, 163);
+  transition-property: color 0.5s linear;
+  color: rgb(75, 75, 75);
   transition-property: background-color 0.5s linear;
   background-color: rgba(187, 187, 187, 0.568)
 }
