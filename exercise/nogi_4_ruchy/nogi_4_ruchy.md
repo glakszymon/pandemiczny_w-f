@@ -6,10 +6,18 @@
 3. Następnie opuszczamy w takiej samej kolejności.
 4. powtarzamy ćwiczenie
 
-### Link do filmu:
-[https://www.youtube.com/watch?v=Sp_VpARR4nI](https://www.youtube.com/watch?v=Sp_VpARR4nI)
+### Zdjęcie:
+![](exercise/nogi_4_ruchy/4_ruchy.png)
+
+### Pracujące mięśnie:
+![](exercise/nogi_4_ruchy/4_ruch.png)
+
+### Animacja:
+![](exercise/nogi_4_ruchy/4 ruchy.gif)
 
 ### Efekty:
 * silniejsze pośladki
 * zmacniamy brzuch
 
+### Link do filmu:
+[https://www.youtube.com/watch?v=Sp_VpARR4nI](https://www.youtube.com/watch?v=Sp_VpARR4nI)
