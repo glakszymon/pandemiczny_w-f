@@ -58,6 +58,15 @@ img {
   padding: 0 20px;
   height: 100%;
 }
+.content2 {
+  margin: 0px;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.slider {
+  width: 100%;
+}
 
 .row::after {
   content:"";
