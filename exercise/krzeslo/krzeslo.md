@@ -15,8 +15,8 @@
 ### Animacja:
 ![](exercise/krzeslo/krzeslo.gif)
 
-### Efekty:
-Zmocnienie nóg.
-
 ### Link do filmu:
 [https://www.youtube.com/watch?v=yIdueTWEsqw](https://www.youtube.com/watch?v=yIdueTWEsqw)
+
+### Efekty:
+Zmocnienie nóg.
