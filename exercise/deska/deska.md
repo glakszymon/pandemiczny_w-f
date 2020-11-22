@@ -11,10 +11,7 @@
 ![](exercise/deska/deska_plank.jpg)
 
 ### Pracujące mięśnie:
-![](exercise/deska/deska_plank.jpg)
-
-### Animacja:
-![](exercise/deska/deska.gif)
+![](exercise/deska/deska.png)
 
 ### Efekty:
 Odpowiednio wykonywany plank wzmocni, ustabilizuje i poprawi postawę ciała, zniweluje tym samym dolegliwości pleców. Deska to idealne uzupełnienie codziennych treningów. Dla osób zaawansowanych, które trenują częściej, to ćwiczenie pomoże poprawić siłę i ogólną kondycję.
