@@ -49,14 +49,14 @@ img {
   height: 100%;
 }
 
-.sidenav > ul {
+.sidenav ul {
   padding: 0 10px;
   margin: 0;
   list-style-type: none;
   text-align: center;
   list-style: none;
 }
-.sidenav > li {
+.sidenav li {
   padding: 10px 0px;
   border-bottom: 1px solid rgba(255, 208, 0, 0.267);
   color: rgb(255, 255, 255);
