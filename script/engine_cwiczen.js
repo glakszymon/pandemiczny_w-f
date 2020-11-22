@@ -26,6 +26,8 @@ var app = new Vue({
         time_left -= 15;
         delete this.full_list[los];
         this.full_list = this.full_list.filter(x => x != undefined);
+        console.warn("time");
+        console.warn(time_left);
       }
     },
 
