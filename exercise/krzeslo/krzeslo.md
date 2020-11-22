@@ -6,9 +6,17 @@
 3. Utrzymaj tę pozycję. 
 4. powtórz ćwiczennie
 
-### Link do filmu:
-[https://www.youtube.com/watch?v=yIdueTWEsqw](https://www.youtube.com/watch?v=yIdueTWEsqw)
+### Zdjęcie:
+![](exercise/krzeslo/krzeslo.jpg)
+
+### Pracujące mięśnie:
+![](exercise/krzeslo/krzesloo.png)
+
+### Animacja:
+![](exercise/krzeslo/krzeslo.gif)
 
 ### Efekty:
 Zmocnienie nóg.
 
+### Link do filmu:
+[https://www.youtube.com/watch?v=yIdueTWEsqw](https://www.youtube.com/watch?v=yIdueTWEsqw)
