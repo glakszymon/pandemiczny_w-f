@@ -2,6 +2,7 @@ var app = new Vue({
   el: '#app',
   data: {
     exerciseList: [],
+    full_list: [],
     currentFile: null,
     czas: 20
   },
@@ -10,7 +11,17 @@ var app = new Vue({
         this.laduj_liste();
     },
     losuj: function() {
-
+      var serie = Math.ceil(this.czas/10);
+      var czas_serii = Math.floor(this.czas*60/serie);
+      var time_left = czas_serii;
+      while(time_left > 0){
+        var los = Math.floor(Math.random() * this.full_list.length);
+        this.exerciseList.push(this.full_list[los]);
+        this.time_left -= this.full_list[los].time;
+        // przerwa
+        this.time_left -= 15;
+        delete this.full_list[los];
+      }
     },
 
   
@@ -25,7 +36,7 @@ var app = new Vue({
               return 1;
             return 0;
         });
-        app.exerciseList = response.data;
+        app.full_list = response.data;
       })
       .catch(function (error) {
         console.log(error);
