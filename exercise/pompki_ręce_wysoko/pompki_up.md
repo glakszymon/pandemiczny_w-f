@@ -8,5 +8,14 @@
 5. Wróć do pozycji wyjściowej, prostując ramiona i w końcowej fazie ruchu wykonując wydech.
 6. Wykonaj ruch wyznaczoną liczbę powtórzeń.
 
+### Zdjęcie:
+![](exercise/pompki_ręce_wysoko/pompki_up.jpg)
+
+### Pracujące mięśnie:
+![](exercise/pompki_ręce_wysoko/pompki_up_.png)
+
+### Animacja:
+![](exercise/pompki_ręce_wysoko/ololol.gif)
+
 ### Link do filmu:
 [https://www.youtube.com/watch?v=suwDMwe2LP4](https://www.youtube.com/watch?v=suwDMwe2LP4)
