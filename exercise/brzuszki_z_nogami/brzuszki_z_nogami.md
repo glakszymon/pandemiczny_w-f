@@ -6,11 +6,11 @@
 4. Powtarzamy ćwiczenie
 
 
-![](exercise/brzuszki/brzuszki.gif)
+![](exercise/brzuszki_z_nogami/brzuszki-z-nogami-w-górze.gif)
 
-![](exercise/brzuszki/brzuszki.png)
+![](exercise/brzuszki_z_nogami/brzuszki_nogi.png)
 
-![](exercise/brzuszki/brzuszki.jpg)
+![](exercise/brzuszki_z_nogami/rece_do_kostek.png)
 
 ### Link do filmu:
 [https://www.youtube.com/watch?v=8Qs9DhR_GvE](https://www.youtube.com/watch?v=8Qs9DhR_GvE)
