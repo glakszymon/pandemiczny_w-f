@@ -6,6 +6,12 @@
 3. Przytrzymujemy kilka sekund i opuszczamy. Wdech.
 4. Powtarzamy ćwiczenie
 
+### Zdjęcie:
+![](exercise/naprzemienne_spiecia_brzucha/spiecia_brzucha.png)
+
+### Pracujące mięśnie:
+![](exercise/naprzemienne_spiecia_brzucha/naprzemienne_spiecia_brzucha.png)
+
 ### Link do filmu:
 [https://www.youtube.com/watch?v=Bek6v6g0FgY](https://www.youtube.com/watch?v=Bek6v6g0FgY)
 
