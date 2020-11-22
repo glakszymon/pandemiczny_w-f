@@ -6,7 +6,7 @@
 3. Napinamy brzuch, jego górny odcinek. Przytrzymujemy kilka sekund i opuszczamy. Wdech.
 4. Powtarzamy ćwiczenie
 
-![brzuszki.gif](exercise/brzuszki/brzuszki.gif)
+![brzuszki.gif](exercise/brzuszki/brzuszki.gif "no siema")
 ![exercise/brzuszki/brzuszki.png](brzuszki.png)
 ![exercise/brzuszki/brzuszki.jpg](brzuszki.jpg)
 
