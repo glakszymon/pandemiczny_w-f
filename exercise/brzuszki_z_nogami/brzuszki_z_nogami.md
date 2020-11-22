@@ -5,6 +5,13 @@
 2. Spokojnie unosimy górną część ciała, starając się dotknąć dłońmi kostek. Robimy wydech. 3. Napinamy brzuch, jego górny odcinek. Przytrzymujemy kilka sekund i opuszczamy. Wdech.
 4. Powtarzamy ćwiczenie
 
+
+![](exercise/brzuszki/brzuszki.gif)
+
+![](exercise/brzuszki/brzuszki.png)
+
+![](exercise/brzuszki/brzuszki.jpg)
+
 ### Link do filmu:
 [https://www.youtube.com/watch?v=8Qs9DhR_GvE](https://www.youtube.com/watch?v=8Qs9DhR_GvE)
 
