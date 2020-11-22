@@ -7,5 +7,14 @@
 4. Unieś ciało do góry na wydechu.
 5. Powtarzamy ćwiczenie.
 
+### Zdjęcie:
+![](exercise/wypady/1wqwe.md.png)
+
+### Pracujące mięśnie:
+![](exercise/wypady/asdasasd.png)
+
+### Animacja:
+![](exercise/wypady/wypady.gif)
+
 ### Link do filmu:
 [https://www.youtube.com/watch?v=ZFeTU5Buor8](https://www.youtube.com/watch?v=ZFeTU5Buor8)
