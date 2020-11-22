@@ -8,6 +8,9 @@
 
 ![exercise/brzuszki/brzuszki.gif](brzuszki.gif)
 
+![exercise/brzuszki/brzuszki.png](brzuszki.png)
+![exercise/brzuszki/brzuszki.jpg](brzuszki.jpg)
+
 ### Link do profesjonalnego filmu:
 [https://www.youtube.com/watch?v=zPQcBrjdk1Q](https://www.youtube.com/watch?v=zPQcBrjdk1Q)
 
