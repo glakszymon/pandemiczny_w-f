@@ -9,6 +9,7 @@
 ![](exercise/brzuszki/brzuszki.gif)
 
 ![](exercise/brzuszki/brzuszki.png)
+
 ![](exercise/brzuszki/brzuszki.jpg)
 
 ### Efekty:
