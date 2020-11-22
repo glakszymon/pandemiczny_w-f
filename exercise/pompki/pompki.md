@@ -8,13 +8,13 @@
 5. Powtarzamy ćwiczenie.
 
 ### Zdjęcie:
-![](exercise/brzuszki_z_nogami/pompki.png)
+![](exercise/pompki/pompki.png)
 
 ### Pracujące mięśnie:
-![](exercise/brzuszki_z_nogami/pompki.png)
+![](exercise/pompki/pompki.png)
 
 ### Animacja:
-![](exercise/brzuszki_z_nogami/pompki.gif)
+![](exercise/pompki/pompki.gif)
 
 ### Efekty:
 Prawidłowo wykonana pompka sprawia, że mięśnie pleców i brzucha, odpowiedzialnych za utrzymanie prawidłowej postawy ciała są silniejsze. wykonując pompki wzmacniasz mięśnie międzyżebrowe i mięśnie pasa barkowego, które biorą udział w mechanice oddychania.
