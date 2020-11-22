@@ -13,7 +13,7 @@
 ![](exercise/nogi_4_ruchy/4_ruch.png)
 
 ### Animacja:
-![](exercise/nogi_4_ruchy/4 ruchy.gif)
+![](exercise/nogi_4_ruchy/4_ruchy.gif)
 
 ### Efekty:
 * silniejsze pośladki
