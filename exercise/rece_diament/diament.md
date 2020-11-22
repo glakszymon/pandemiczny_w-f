@@ -1,4 +1,4 @@
-# Pompki z dłoniami w diament
+# Pompki z dłońmi w diament
 
 ### Opis:
 1. Przyjmij pozycję do pompki, dłonie ustawiając w tzw. diament – palce wskazujące i kciuki powinny się ze sobą stykać. Im szerzej rozstawisz stopy, tym bardziej ułatwisz sobie zadanie. 
