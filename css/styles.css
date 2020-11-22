@@ -20,18 +20,22 @@ img {
   text-align: center;
   color: #fff;
   padding: 25px;
+  cursor: pointer;
 }
 
 /* Style the side navigation */
 .sidenav {
-  height: 100%;
+  /* height: 100%;
   width: 250px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #555;
   overflow-x: hidden;
+  */
+  float: left;
+  width: 250px;
+  background-color: #555;
 }
 
 
@@ -54,6 +58,13 @@ img {
   margin-left: 250px;
   padding: 0 20px;
   height: 100%;
+  float: left;
+}
+
+.row::after {
+  content:"";
+  display: table;
+  clear: both;
 }
 
 .sidenav ul {

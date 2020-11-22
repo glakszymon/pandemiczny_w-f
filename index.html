@@ -18,23 +18,26 @@
 
 <body>
   <div id="app">
-    <div class="header">Pandemiczny W-F</div>
-    <div class="sidenav">
-      <div class ="tytul">
-        <span>Ćwiczenia:</span>
-      </div>
-      <ul>
-        <li class="menu_cwiczen" v-bind:class="{activeButton: (exercise.file == currentFile)}"
+    <div class="row">
+
+      <div class="header">Pandemiczny W-F</div>
+      <div class="sidenav">
+        <div class ="tytul">
+          <span>Ćwiczenia:</span>
+        </div>
+        <ul>
+          <li class="menu_cwiczen" v-bind:class="{activeButton: (exercise.file == currentFile)}"
           v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)">          
-        {{exercise.name}}
+          {{exercise.name}}
         </li>
       </ul>
-      </div> 
-      
-      <div class="content" id="content">
-        <h2>CSS Template</h2>
-        <p>A full-height, fixed sidenav and content.</p>
-      </div>
+    </div> 
+    
+    <div class="content" id="content">
+      <h2>CSS Template</h2>
+      <p>A full-height, fixed sidenav and content.</p>
+    </div>
+  </div>
   </div>
 
   <script src="script/engine.js"></script>
