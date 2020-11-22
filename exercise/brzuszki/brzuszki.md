@@ -1,4 +1,4 @@
- # Brzuszki
+# Brzuszki
 
 ### Opis:
 1. Pozycja leżąca, nogi ugięte w kolanach, stopy stabilnie oparte na podłodze. 
