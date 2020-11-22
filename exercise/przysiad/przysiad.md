@@ -7,8 +7,14 @@
 4. Wróć do pozycji wyjściowej spinając pośladki. Wydech.
 5. Powtórz ćwiczenie.
 
-### Link do filmu:
-[https://www.youtube.com/watch?v=qkY9DQaW0tM](https://www.youtube.com/watch?v=qkY9DQaW0tM)
+### Zdjęcie:
+![](exercise/przysiad/przysiad.png)
+
+### Pracujące mięśnie:
+![](exercise/przysiad/przysiad_.png)
+
+### Animacja:
+![](exercise/przysiad/soaosoa.gif)
 
 ### Efekty:
 * wzmocnienie mięśni pleców, brzucha, pośladków, ud i łydek
@@ -16,3 +22,5 @@
 * zwiększenie gęstości kości
 * wykształcenie poczucia równowagi
 
+### Link do filmu:
+[https://www.youtube.com/watch?v=qkY9DQaW0tM](https://www.youtube.com/watch?v=qkY9DQaW0tM)
