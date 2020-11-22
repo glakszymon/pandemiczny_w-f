@@ -3,6 +3,7 @@ var app = new Vue({
   data: {
     exerciseList: [],
     currentFile: null
+    czas: 20
   },
   methods: {
     init: function() {
