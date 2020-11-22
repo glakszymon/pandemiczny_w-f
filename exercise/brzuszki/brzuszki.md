@@ -6,11 +6,14 @@
 3. Napinamy brzuch, jego górny odcinek. Przytrzymujemy kilka sekund i opuszczamy. Wdech.
 4. Powtarzamy ćwiczenie
 
-![](exercise/brzuszki/brzuszki.gif)
+### Zdjęcie:
+![](exercise/brzuszki/brzuszki.jpg)
 
+### Pracujące mięśnie:
 ![](exercise/brzuszki/brzuszki.png)
 
-![](exercise/brzuszki/brzuszki.jpg)
+### Animacja:
+![](exercise/brzuszki/brzuszki.gif)
 
 ### Efekty:
 * pozwalają pozbyć się oponki na brzuchu
