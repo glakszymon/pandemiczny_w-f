@@ -8,5 +8,14 @@
 5. Gdy wracamy do pozycji wyjściowej podnsimy jedną rękę do góry.
 6. Powtarzamy ćwiczenie
 
+### Zdjęcie:
+![](exercise/pompki_z_rotacją/rotacja.png)
+
+### Pracujące mięśnie:
+![](exercise/pompki_z_rotacją/rotacja3.png)
+
+### Animacja:
+![](exercise/pompki_z_rotacją/rotacja.gif)
+
 ### Link do filmu:
 [https://www.youtube.com/watch?v=T0kZqjtojvI](https://www.youtube.com/watch?v=T0kZqjtojvI)
