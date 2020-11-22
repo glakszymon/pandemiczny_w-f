@@ -7,5 +7,14 @@
 4. Przez cały czas ciało trzymaj proste od głowy po kostki. 
 5. Powtórz ćwiczenie
 
+### Zdjęcie:
+![](exercise/rece_diament/diament.jpg)
+
+### Pracujące mięśnie:
+![](exercise/rece_diament/diament.png)
+
+### Animacja:
+![](exercise/rece_diament/pompki_diament.gif)
+
 ### Link do filmu:
 [https://www.youtube.com/watch?v=Lp-XawJNFTs](https://www.youtube.com/watch?v=Lp-XawJNFTs)
