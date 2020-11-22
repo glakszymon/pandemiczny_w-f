@@ -58,7 +58,6 @@ img {
   margin-left: 250px;
   padding: 0 20px;
   height: 100%;
-  float: left;
 }
 
 .row::after {
