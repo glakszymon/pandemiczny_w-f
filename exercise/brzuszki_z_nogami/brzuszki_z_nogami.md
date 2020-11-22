@@ -12,8 +12,8 @@
 
 ![](exercise/brzuszki_z_nogami/rece_do_kostek.png)
 
-### Link do filmu:
-[https://www.youtube.com/watch?v=8Qs9DhR_GvE](https://www.youtube.com/watch?v=8Qs9DhR_GvE)
-
 ### Efekty:
 Odpowiednio wykonywany plank wzmocni, ustabilizuje i poprawi postawę ciała, zniweluje tym samym dolegliwości pleców. Deska to idealne uzupełnienie codziennych treningów. Dla osób zaawansowanych, które trenują częściej, to ćwiczenie pomoże poprawić siłę i ogólną kondycję.
+
+### Link do filmu:
+[https://www.youtube.com/watch?v=8Qs9DhR_GvE](https://www.youtube.com/watch?v=8Qs9DhR_GvE)
