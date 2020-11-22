@@ -1,107 +1,86 @@
 [
     {
         "name": "Brzuszki", 
-        "file": "brzuszki/brzuszki.md",
-        "image": "brzuszki.jpg"
+        "file": "brzuszki/brzuszki.md"
     },
     {
         "name": "Pompki", 
-        "file": "pompki.md",
-        "image": "pompki.jpg"
+        "file": "pompki/pompki.md"
     },
     {
         "name": "Squat / Przysiad", 
-        "file": "przysiad.md",
-        "image": ".jpg"
+        "file": "przysiad/przysiad.md"
     },
     {
         "name": "Wypady nóg / Forward Lunges", 
-        "file": "wypady.md",
-        "image": "brzuszki.jpg"
+        "file": "wypady/wypady.md"
     },
     {
         "name": "Unoszenie nóg w 4 ruchach", 
-        "file": "nogi_4_ruchy.md",
-        "image": "brzuszki.jpg"
+        "file": "nogi_4_ruchy/nogi_4_ruchy.md"
     },
     {
         "name": "Tricep bench dips / Ćwiczenie na Triceps", 
-        "file": "triceps.md",
-        "image": "pompki.jpg"
+        "file": "triceps/triceps.md"
     },
     {
         "name": "Stretching Mięśnia Biodrowo-Piszczelowego", 
-        "file": "stretching_biodrowo-piszczelowego.md",
-        "image": "pompki.jpg"
+        "file": "stretching_biodrowo-piszczelowego/stretching_biodrowo-piszczelowego.md"
     },
     {
         "name": "Step Ups", 
-        "file": "step_ups.md",
-        "image": "pompki.jpg"
+        "file": "step_ups/step_ups.md"
     },
     {
         "name": "Skip A w miejscu / High Knees Running In Place", 
-        "file": "skip_a.md",
-        "image": "pompki.jpg"
+        "file": "skip_a/skip_a.md"
     },
     {
         "name": "Side Plank", 
-        "file": "side_plank.md",
-        "image": "pompki.jpg"
+        "file": "side_plank/side_plank.md"
     },
     {
         "name": "Push-Ups With Torso Rotation", 
-        "file": "rotation.md",
-        "image": "pompki.jpg"
+        "file": "pompki_z_rotacja/pompki_z_rotacja.md"
     },
     {
         "name": "Pompki na podwyższeniu", 
-        "file": "pompki_up.md",
-        "image": "pompki.jpg"
+        "file": "pompki_rece_wysoko/pompki_rece_wysoko.md"
     },
     {
         "name": "Pompki typu V (ze ściśniętymi dłońmi)", 
-        "file": "v.md",
-        "image": "pompki.jpg"
+        "file": "pompki_typu_v/pompki_typu_v.md"
     },
     {
         "name": "Pompki na kolanach - dłoniach w diament", 
-        "file": "diament.md",
-        "image": "pompki.jpg"
+        "file": "rece_diament/rece_diament.md"
     },
     {
         "name": "Pompki z podparciem stóp o ławeczkę", 
-        "file": "lawka.md",
-        "image": "pompki.jpg"
+        "file": "pompki_nogi_wysoko/pompki_nogi_wysoko.md"
     },
     {
         "name": "Naprzemienne spięcia brzucha", 
-        "file": "naprzemienne_spiecia_brzucha.md",
-        "image": "pompki.jpg"
+        "file": "naprzemienne_spiecia_brzucha/naprzemienne_spiecia_brzucha.md"
     },
     {
         "name": "Pajacyki", 
-        "file": "pajacyki.md",
-        "image": "pompki.jpg"
+        "file": "pajacyki/pajacyki.md"
     },
     {
         "name": "Krzesło / Wall Sit", 
-        "file": "krzeslo.md",
-        "image": "pompki.jpg"
+        "file": "krzeslo/krzeslo.md"
     },
     {
         "name": "Deska / Plank", 
-        "file": "deska.md",
-        "image": "pompki.jpg"
+        "file": "deska/deska.md"
     },
     {
         "name": "Brzuszki z przysuwaniem kolan do klatki piersiowej", 
-        "file": "brzuszki_z_przysuwaniem_kolan.md",
-        "image": "pompki.jpg"
+        "file": "brzuszki_z_przysuwaniem_kolan/brzuszki_z_przysuwaniem_kolan.md"
     },
     {
         "name": "Brzuszki z nogami uniesionymi pionowo i dotykaniem kostek", 
-        "file": "brzuszki_z_nogami.md",
-        "image": "pompki.jpg"
+        "file": "brzuszki_z_nogami/brzuszki_z_nogami.md"
     }
 ]
