@@ -25,6 +25,7 @@ var app = new Vue({
         // przerwa
         this.time_left -= 15;
         delete this.full_list[los];
+        this.full_list = this.full_list.filter(function(a) { return a != undefined; })
       }
     },
 
