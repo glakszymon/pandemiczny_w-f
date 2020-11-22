@@ -9,6 +9,9 @@ var app = new Vue({
     init: function() {
         this.laduj_liste();
     },
+    losuj: function() {
+
+    },
 
   
     laduj_liste: function () {
