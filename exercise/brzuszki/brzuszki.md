@@ -6,8 +6,7 @@
 3. Napinamy brzuch, jego górny odcinek. Przytrzymujemy kilka sekund i opuszczamy. Wdech.
 4. Powtarzamy ćwiczenie
 
-![brzuszki.gif]
-![brzuszki.gif](brzuszki.gif)
+![exercise/brzuszki/brzuszki.gif](brzuszki.gif)
 
 ### Link do profesjonalnego filmu:
 [https://www.youtube.com/watch?v=zPQcBrjdk1Q](https://www.youtube.com/watch?v=zPQcBrjdk1Q)
