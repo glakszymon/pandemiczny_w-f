@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="text/javascript" src="script/vue.js"></script>
+  <script type="text/javascript" src="script/axios.min.js"></script>
+  <script type="text/javascript" src="script/showdown.min.js"></script>
+
+</head>
+
+<body>
+  <div id="app">
+    <div class="row">
+
+      <div class="header">Pandemiczny W-F</div>
+      <div class="sidenav">
+        <div class ="tytul">
+          <span>Ćwiczenia:</span>
+        </div>
+        <ul>
+          <li class="menu_cwiczen" v-bind:class="{activeButton: (exercise.file == currentFile)}"
+          v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)">          
+          {{exercise.name}}
+        </li>
+      </ul>
+    </div> 
+    
+    <div class="content" id="content">
+      <h2>CSS Template</h2>
+      <p>A full-height, fixed sidenav and content.</p>
+    </div>
+  </div>
+  </div>
+
+  <script src="script/engine.js"></script>
+</body>
+</html>
