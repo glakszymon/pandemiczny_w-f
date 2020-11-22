@@ -6,8 +6,18 @@
 3. Opierając się na zawiasach na łokciu, opuść ciało tak daleko, jak to możliwe, lub dopóki ramiona nie utworzą kąta 90 stopni.
 4. Wypchnij dłonie z powrotem, aby rozpocząć.
 
-### Link do filmu:
-[https://www.youtube.com/watch?v=kv3Vya8mJVw](https://www.youtube.com/watch?v=kv3Vya8mJVw)
+### Zdjęcie:
+![](exercise/triceps/fajnecos.png)
+
+### Pracujące mięśnie:
+![](exercise/triceps/lololol.png)
+
+### Animacja:
+![](exercise/triceps/triceps.gif)
 
 ### Efekty:
 * Bardziej rozbudowane mięśnie tricepsa.
+
+### Link do filmu:
+[https://www.youtube.com/watch?v=kv3Vya8mJVw](https://www.youtube.com/watch?v=kv3Vya8mJVw)
+
