@@ -2,7 +2,7 @@ var app = new Vue({
   el: '#app',
   data: {
     exerciseList: [],
-    currentFile: null
+    currentFile: null,
     czas: 20
   },
   methods: {
