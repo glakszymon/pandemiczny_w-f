@@ -6,12 +6,9 @@
 3. Napinamy brzuch, jego górny odcinek. Przytrzymujemy kilka sekund i opuszczamy. Wdech.
 4. Powtarzamy ćwiczenie
 
-![brzuszki.gif](exercise/brzuszki/brzuszki.gif "no siema")
-![exercise/brzuszki/brzuszki.png](brzuszki.png)
-![exercise/brzuszki/brzuszki.jpg](brzuszki.jpg)
-
-### Link do profesjonalnego filmu:
-[https://www.youtube.com/watch?v=zPQcBrjdk1Q](https://www.youtube.com/watch?v=zPQcBrjdk1Q)
+![](exercise/brzuszki/brzuszki.gif)
+![](exercise/brzuszki/brzuszki.png)
+![](exercise/brzuszki/brzuszki.jpg)
 
 ### Efekty:
 * pozwalają pozbyć się oponki na brzuchu
@@ -21,3 +18,5 @@
 * wzmacniają mięśnie brzucha
 * poprawiają postawę ciała
 
+### Link do profesjonalnego filmu:
+[https://www.youtube.com/watch?v=zPQcBrjdk1Q](https://www.youtube.com/watch?v=zPQcBrjdk1Q)
