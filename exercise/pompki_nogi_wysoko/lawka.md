@@ -7,5 +7,14 @@
 4. Wracamy do pozycji początkowej.
 5. Powtarzamy ćwiczenie.
 
+### Zdjęcie:
+![](exercise/pompki_nogi_wysoko/pompki_nogi_wysoko.jpg)
+
+### Pracujące mięśnie:
+![](exercise/pompki_nogi_wysoko/nogi-wyżej.png)
+
+### Animacja:
+![](exercise/pompki_nogi_wysoko/anime.gif)
+
 ### Link do filmu:
 [https://www.youtube.com/watch?v=V2ua4TyIs88](https://www.youtube.com/watch?v=V2ua4TyIs88)
