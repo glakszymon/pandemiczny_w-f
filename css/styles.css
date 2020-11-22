@@ -79,6 +79,20 @@ img {
   cursor: pointer;
 }
 
+.menu ul {
+  padding: 0 10px;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  list-style: none;
+}
+.menu li {
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(255, 208, 0, 0.267);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
 .menu_cwiczen:hover{
   /* transition-property: color 0.5s linear;
   color: rgb(36, 36, 36); */
