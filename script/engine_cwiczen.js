@@ -21,9 +21,9 @@ var app = new Vue({
         this.exerciseList.push(this.full_list[los]);
         console.warn("test1");
         console.warn(this.full_list[los]);
-        this.time_left -= this.full_list[los].time;
+        time_left -= this.full_list[los].time;
         // przerwa
-        this.time_left -= 15;
+        time_left -= 15;
         delete this.full_list[los];
         this.full_list = this.full_list.filter(x => x != undefined);
       }
