@@ -12,9 +12,6 @@
 ### Pracujące mięśnie:
 ![](exercise/krzeslo/krzesloo.png)
 
-### Animacja:
-![](exercise/krzeslo/krzeslo.gif)
-
 ### Link do filmu:
 [https://www.youtube.com/watch?v=yIdueTWEsqw](https://www.youtube.com/watch?v=yIdueTWEsqw)
 
