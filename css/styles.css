@@ -41,6 +41,8 @@ img {
   float: left;
   width: 35%;
   background-color: #555;
+  border: 1px #555 solid;
+  border-radius: 10px;
 }
 
 /* Side navigation links */
@@ -172,7 +174,7 @@ body{
     padding: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
-    border-radius: 25px;
+    border-radius: 10px;
     border: 1px #8c7d7d solid ;
   }
 
