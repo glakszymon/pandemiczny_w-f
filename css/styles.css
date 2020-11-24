@@ -39,7 +39,7 @@ img {
 
 .panelik {
   float: left;
-  width: 450px;
+  width: 50%;
   background-color: #555;
 }
 
@@ -100,11 +100,23 @@ img {
   text-align: center;
   list-style: none;
 }
+
+.panelik ul {
+  padding: 0 10px;
+  margin: 0;
+}
+
 .menu li {
   padding: 10px 0px;
   border-bottom: 1px solid rgba(255, 208, 0, 0.267);
   color: rgb(255, 255, 255);
   cursor: pointer;
+}
+
+.lista_cwiczen{
+  padding: 10px 0px;
+  color:#ddd;
+  
 }
 
 .menu_cwiczen:hover{
@@ -138,7 +150,7 @@ body{
     margin: 0;
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: #555;
     }
 
   .tytul span {
