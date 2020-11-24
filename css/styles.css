@@ -173,6 +173,7 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 25px;
+    border: black 1px solid ;
   }
 
   h1 {
