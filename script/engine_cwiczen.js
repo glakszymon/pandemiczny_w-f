@@ -14,6 +14,7 @@ var app = new Vue({
       var serie = Math.ceil(this.czas/10);
       var czas_serii = Math.floor(this.czas*60/serie);
       let time_left = czas_serii;
+      var backup = this.exercise;
       while(time_left > 0){
         console.warn("losuję...");
         var los = Math.floor(Math.random() * this.full_list.length);
@@ -27,6 +28,7 @@ var app = new Vue({
         this.full_list = this.full_list.filter(x => x != undefined);
         console.warn("time");
         console.warn(time_left);
+      this.exercise = backup
       }
     },
 
