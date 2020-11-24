@@ -28,15 +28,14 @@
                 Losuj zestaw ćwiczeń
               </button>
             </div>
-            <div class=row>
+            <div class="row" v-bind:class="{invisible: (mamcwiczenie == false)}"></div>>
             <div class="panelik">
               <div class ="tytulik">
               <span>Lista wylosowanych cwiczen:</span>
             </div>
             <ul>
               <li class="lista_cwiczen" v-bind:class="{activeButton: (exercise.file == currentFile)}"
-              v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)" 
-              v-bind:class="{invisible: (mamcwiczenie == false)}">          
+              v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)">         
               {{exercise.name}}
             </li>
           </ul>
