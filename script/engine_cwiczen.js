@@ -13,7 +13,7 @@ var app = new Vue({
     losuj: function() {
       var serie = Math.ceil(this.czas/10);
       var czas_serii = Math.floor(this.czas*60/serie);
-      var time_left = czas_serii;
+      let time_left = czas_serii;
       while(time_left > 0){
         console.warn("losuję...");
         var los = Math.floor(Math.random() * this.full_list.length);
@@ -22,8 +22,7 @@ var app = new Vue({
         console.warn("test1");
         console.warn(this.full_list[los]);
         time_left -= this.full_list[los].time;
-        // przerwa
-        time_left -= 15;
+        time_left -= 15; // przerwa
         delete this.full_list[los];
         this.full_list = this.full_list.filter(x => x != undefined);
         console.warn("time");
