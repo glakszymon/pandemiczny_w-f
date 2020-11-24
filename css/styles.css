@@ -67,6 +67,7 @@ img {
 .detale {
   padding: 0 20px;
   height: 100%;
+  margin-left: 35%;
 }
 
 .content2 {
@@ -122,7 +123,8 @@ img {
 .lista_cwiczen{
   padding: 10px 0px;
   color:#ddd;
-  
+  margin-left: 3%;
+  cursor: pointer;
 }
 
 .menu_cwiczen:hover{
