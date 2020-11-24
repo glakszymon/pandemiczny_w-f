@@ -35,7 +35,8 @@
             </div>
             <ul>
               <li class="lista_cwiczen" v-bind:class="{activeButton: (exercise.file == currentFile)}"
-              v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)">          
+              v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)" 
+              v-bind:class="{invisible: (mamcwiczenie == false)}">          
               {{exercise.name}}
             </li>
           </ul>

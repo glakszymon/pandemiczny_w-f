@@ -4,7 +4,8 @@ var app = new Vue({
     exerciseList: [],
     full_list: [],
     currentFile: null,
-    czas: 20
+    czas: 20,
+    mamcwiczenie: false
   },
   methods: {
     init: function() {
@@ -31,6 +32,7 @@ var app = new Vue({
         console.warn(time_left);
       }
       this.full_list = backup;
+      this.mamcwiczenie = this.exerciseList.length>0;
     },
 
   

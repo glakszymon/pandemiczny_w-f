@@ -160,6 +160,10 @@ body{
     background-color: #555;
     }
 
+  .invisible {
+    display: none;
+  }
+
   .tytul span {
   font-size: 22px;
   }
