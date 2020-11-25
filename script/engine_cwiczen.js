@@ -5,13 +5,14 @@ var app = new Vue({
     full_list: [],
     currentFile: null,
     czas: 20,
-    mamcwiczenie: false
+    mode: ''
   },
   methods: {
     init: function() {
         this.laduj_liste();
     },
     losuj: function() {
+      this.mode = '';
       var serie = Math.ceil(this.czas/10);
       var czas_serii = Math.floor(this.czas*60/serie);
       let time_left = czas_serii;
@@ -32,12 +33,15 @@ var app = new Vue({
         console.warn(time_left);
       }
       this.full_list = backup;
-      this.mamcwiczenie = this.exerciseList.length>0;
+      if (this.exerciseList.length>0) {
+        this.mode = 'polosowaniu';
+      }
+      
     },
 
     start_cwiczen: function() {
-      
-    }
+      this.mode = 'go';
+    },
 
   
     laduj_liste: function () {

@@ -28,7 +28,10 @@
                 Losuj zestaw ćwiczeń
               </button>
             </div>
-            <div class="row" v-bind:class="{invisible: (mamcwiczenie == false)}">
+            <div class="go" v-bind:class="{invisible: (mode != 'go')}">
+              teścik
+            </div>
+            <div class="row" v-bind:class="{invisible: (mode != 'polosowaniu')}">
               <div class="panelik">
                 <div class ="tytulik">
                   <button class="start" v-on:click="start_cwiczen">
