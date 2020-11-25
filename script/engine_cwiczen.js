@@ -35,6 +35,10 @@ var app = new Vue({
       this.mamcwiczenie = this.exerciseList.length>0;
     },
 
+    start_cwiczen: function() {
+      
+    }
+
   
     laduj_liste: function () {
       axios.get('data/list.json')
