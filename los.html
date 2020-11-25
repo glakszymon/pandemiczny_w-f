@@ -33,10 +33,10 @@
             </div>
             <div class="row" v-bind:class="{invisible: (mode != 'polosowaniu')}">
               <div class="panelik">
+                <button class="start" v-on:click="start_cwiczen">
+                  Start ćwiczeń
+                </button>
                 <div class ="tytulik">
-                  <button class="start" v-on:click="start_cwiczen">
-                    Start ćwiczeń
-                  </button>
                   <span>Lista wylosowanych ćwiczeń:</span>
                 </div>
                 <ul>
