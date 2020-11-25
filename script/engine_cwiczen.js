@@ -5,7 +5,17 @@ var app = new Vue({
     full_list: [],
     currentFile: null,
     czas: 20,
-    mode: ''
+    mode: '',
+
+    aktualnaseria: 0,
+    iloscserii: 0,
+    aktualnecwiczenie: 0,
+    ilosccwiczen: 0,
+    reszta_czasu_cwiczenia: 0,
+    nazwa_cwiczenia_teraz: '',
+    aktualne_cwiczenie_obrazek: '',
+    seria: 0
+
   },
   methods: {
     init: function() {
@@ -35,14 +45,46 @@ var app = new Vue({
       this.full_list = backup;
       if (this.exerciseList.length>0) {
         this.mode = 'polosowaniu';
+        this.iloscserii = serie;
       }
       
     },
 
     start_cwiczen: function() {
       this.mode = 'go';
+      this.ilosccwiczen = this.exerciseList.length;
+      this.seria = 1;
+      this.aktualnecwiczenie = 0;
+      this.gonext();
     },
 
+    gonext: function() {
+      this.aktualnecwiczenie ++;
+      if (this.aktualnecwiczenie > this.ilosccwiczen) {
+        this.aktualnaseria ++;
+        this.aktualnecwiczenie = 1;
+      }
+      if (this.aktualnaseria > this.iloscserii) {
+        this.finish();
+        return;
+      }
+      this.nazwa_cwiczenia_teraz = this.exerciseList[this.aktualnecwiczenie - 1].name;
+      this.aktualne_cwiczenie_obrazek = this.exerciseList[this.aktualnecwiczenie - 1].name;
+      this.reszta_czasu_cwiczenia = this.exerciseList[this.aktualnecwiczenie - 1].time;
+      window.setTimeout(this.count_down, 1000);
+
+    },
+
+    finish: function() {
+
+    },
+
+    count_down: function() {
+      this.reszta_czasu_cwiczenia--;
+      if (this.reszta_czasu_cwiczenia <= 0) {
+        this.gonext();
+      }
+    },
   
     laduj_liste: function () {
       axios.get('data/list.json')

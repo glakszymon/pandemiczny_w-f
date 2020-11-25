@@ -28,9 +28,31 @@
                 Losuj zestaw ćwiczeń
               </button>
             </div>
+            
             <div class="go" v-bind:class="{invisible: (mode != 'go')}">
-              teścik
+              <div class="row">
+                <div class="goleft">
+                  <div class="seria">
+                    Seria: {{aktualnaseria}} / {{iloscserii}}
+                  </div>
+                  <div class="numercwiczenia">
+                    Ćwiczenie: {{aktualnecwiczenie}} / {{ilosccwiczen}}
+                  </div>
+                  <div class="zegar">
+                    Czas: {{reszta_czasu_cwiczenia}}
+                  </div>
+              </div>
+              <div class="goright">
+                <div class="nazwa_cwiczenia">
+                  {{nazwa_cwiczenia_teraz}}
+                </div>
+                <div class="photo">
+                  <img src="{{aktualne_cwiczenie_obrazek}}"/>
+                </div>
+              </div>
+              </div>
             </div>
+            
             <div class="row" v-bind:class="{invisible: (mode != 'polosowaniu')}">
               <div class="panelik">
                 <button class="start" v-on:click="start_cwiczen">

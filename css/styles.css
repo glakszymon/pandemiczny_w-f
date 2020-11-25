@@ -37,6 +37,18 @@ img {
   background-color: #555;
 }
 
+.goleft {
+  float: left;
+  width: 50%;
+  background-color: #555;
+}
+
+.goright {
+  padding: 0 20px;
+  height: 100%;
+  margin-left: 50%;
+}
+
 .panelik {
   float: left;
   width: 35%;
@@ -71,6 +83,7 @@ img {
   height: 100%;
   margin-left: 35%;
 }
+
 
 .content2 {
   margin: 0px;
@@ -138,6 +151,7 @@ img {
   background-color: rgba(33, 25, 80, 0.568);
 
 }
+
 
 body{
   background: rgb(255, 255, 255);
