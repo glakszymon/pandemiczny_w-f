@@ -83,7 +83,9 @@ var app = new Vue({
       this.reszta_czasu_cwiczenia--;
       if (this.reszta_czasu_cwiczenia <= 0) {
         this.gonext();
+        return;
       }
+      window.setTimeout(this.count_down, 1000);
     },
   
     laduj_liste: function () {
