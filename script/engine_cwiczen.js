@@ -53,7 +53,7 @@ var app = new Vue({
     start_cwiczen: function() {
       this.mode = 'go';
       this.ilosccwiczen = this.exerciseList.length;
-      this.seria = 1;
+      this.aktualnaseria = 1;
       this.aktualnecwiczenie = 0;
       this.gonext();
     },
