@@ -14,7 +14,9 @@ var app = new Vue({
     reszta_czasu_cwiczenia: 0,
     nazwa_cwiczenia_teraz: '',
     aktualne_cwiczenie_obrazek: '',
-    seria: 0
+    seria: 0,
+    kolejne_cwiczenie: null,
+    timeout_action: null
 
   },
   methods: {
@@ -39,10 +41,10 @@ var app = new Vue({
         time_left -= 15; // przerwa
         delete this.full_list[los];
         this.full_list = this.full_list.filter(x => x != undefined);
+        this.full_list = backup;
         console.warn("time");
         console.warn(time_left);
       }
-      this.full_list = backup;
       if (this.exerciseList.length>0) {
         this.mode = 'polosowaniu';
         this.iloscserii = serie;
@@ -60,31 +62,60 @@ var app = new Vue({
 
     gonext: function() {
       this.aktualnecwiczenie ++;
+      var zmiana_serii = false;
       if (this.aktualnecwiczenie > this.ilosccwiczen) {
         this.aktualnaseria ++;
         this.aktualnecwiczenie = 1;
+        zmiana_serii = true;
       }
       if (this.aktualnaseria > this.iloscserii) {
         this.finish();
         return;
       }
+      this.wait_please(zmiana_serii);
+    },
+    
+    show_current: function() {
+      
       this.nazwa_cwiczenia_teraz = this.exerciseList[this.aktualnecwiczenie - 1].name;
       this.aktualne_cwiczenie_obrazek = this.exerciseList[this.aktualnecwiczenie - 1].name;
       this.reszta_czasu_cwiczenia = this.exerciseList[this.aktualnecwiczenie - 1].time;
+      this.timeout_action = 'go next';
       window.setTimeout(this.count_down, 1000);
-
+      
     },
 
     finish: function() {
-
+      this.nazwa_cwiczenia_teraz = "To juz jest koniec nie ma już nic";
     },
 
     count_down: function() {
       this.reszta_czasu_cwiczenia--;
       if (this.reszta_czasu_cwiczenia <= 0) {
-        this.gonext();
+        switch (this.timeout_action) {
+          case 'go next':
+            this.gonext();
+            break;
+          case 'show current':
+            this.show_current();
+            break;
+          }
         return;
       }
+      window.setTimeout(this.count_down, 1000);
+    },
+
+    wait_please: function(zmiana_serii) {
+      this.nazwa_cwiczenia_teraz = "Złap oddech";
+      this.aktualne_cwiczenie_obrazek = "data/love.jpg";
+      this.kolejne_cwiczenie = this.exerciseList[this.aktualnecwiczenie - 1].name;
+      if (zmiana_serii = true) {
+        this.reszta_czasu_cwiczenia = 30;
+      }
+      else {
+        this.reszta_czasu_cwiczenia = 15;
+      }
+      this.timeout_action = 'show current';
       window.setTimeout(this.count_down, 1000);
     },
   
