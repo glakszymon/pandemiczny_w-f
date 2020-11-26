@@ -62,7 +62,7 @@ var app = new Vue({
 
     gonext: function() {
       this.aktualnecwiczenie ++;
-      var zmiana_serii = false;
+      let zmiana_serii = false;
       if (this.aktualnecwiczenie > this.ilosccwiczen) {
         this.aktualnaseria ++;
         this.aktualnecwiczenie = 1;
@@ -110,7 +110,7 @@ var app = new Vue({
       this.nazwa_cwiczenia_teraz = "Złap oddech";
       this.aktualne_cwiczenie_obrazek = "data/love.jpg";
       this.kolejne_cwiczenie = this.exerciseList[this.aktualnecwiczenie - 1].name;
-      if (zmiana_serii = true) {
+      if (zmiana_serii == true) {
         this.reszta_czasu_cwiczenia = 30;
       }
       else {
