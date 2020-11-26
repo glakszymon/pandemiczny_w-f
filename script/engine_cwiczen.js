@@ -29,7 +29,7 @@ var app = new Vue({
       var czas_serii = Math.floor(this.czas*60/serie);
       let time_left = czas_serii;
       const backup = [...this.full_list];
-      this.exerciseList = []
+      this.exerciseList = [];
       while(time_left > 0){
         console.warn("losuję...");
         var los = Math.floor(Math.random() * this.full_list.length);
@@ -41,10 +41,10 @@ var app = new Vue({
         time_left -= 15; // przerwa
         delete this.full_list[los];
         this.full_list = this.full_list.filter(x => x != undefined);
-        this.full_list = backup;
         console.warn("time");
         console.warn(time_left);
       }
+      this.full_list = backup;
       if (this.exerciseList.length>0) {
         this.mode = 'polosowaniu';
         this.iloscserii = serie;
