@@ -77,6 +77,7 @@ var app = new Vue({
     
     show_current: function() {
       
+      this.kolejne_cwiczenie = null;
       this.nazwa_cwiczenia_teraz = this.exerciseList[this.aktualnecwiczenie - 1].name;
       this.aktualne_cwiczenie_obrazek = this.exerciseList[this.aktualnecwiczenie - 1].name;
       this.reszta_czasu_cwiczenia = this.exerciseList[this.aktualnecwiczenie - 1].time;
