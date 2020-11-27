@@ -77,7 +77,7 @@ var app = new Vue({
     
     nastepne_cwiczenie_rysunek_ustawienia: function() {
       this.nastepne_cwiczenie_obrazek = "exercise/" + this.exerciseList[this.aktualnecwiczenie].photo;
-    }
+    },
 
     show_current: function() {
       
