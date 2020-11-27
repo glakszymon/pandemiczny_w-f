@@ -18,7 +18,7 @@ var app = new Vue({
     kolejne_cwiczenie: null,
     timeout_action: null,
     nastepne_cwiczenie_obrazek: null
-    
+
   },
   methods: {
     init: function() {
@@ -52,7 +52,7 @@ var app = new Vue({
       }
       
     },
-
+    
     start_cwiczen: function() {
       this.mode = 'go';
       this.ilosccwiczen = this.exerciseList.length;
@@ -60,7 +60,7 @@ var app = new Vue({
       this.aktualnecwiczenie = 0;
       this.gonext();
     },
-
+    
     gonext: function() {
       this.aktualnecwiczenie ++;
       let zmiana_serii = false;
@@ -75,13 +75,10 @@ var app = new Vue({
       }
       this.wait_please(zmiana_serii);
     },
-    
-    nastepne_cwiczenie_rysunek_ustawienia: function() {
-      this.nastepne_cwiczenie_obrazek = "exercise/" + this.exerciseList[this.aktualnecwiczenie].photo;
-    },
-
+        
     show_current: function() {
       
+      this.nastepne_cwiczenie_obrazek = null;
       this.kolejne_cwiczenie = null;
       this.nazwa_cwiczenia_teraz = this.exerciseList[this.aktualnecwiczenie - 1].name;
       this.aktualne_cwiczenie_obrazek = "exercise/" + this.exerciseList[this.aktualnecwiczenie - 1].photo;
@@ -90,11 +87,11 @@ var app = new Vue({
       window.setTimeout(this.count_down, 1000);
       
     },
-
+    
     finish: function() {
       this.nazwa_cwiczenia_teraz = "To juz jest koniec nie ma już nic";
     },
-
+    
     count_down: function() {
       this.reszta_czasu_cwiczenia--;
       if (this.reszta_czasu_cwiczenia <= 0) {
@@ -102,39 +99,40 @@ var app = new Vue({
           case 'go next':
             this.gonext();
             break;
-          case 'show current':
-            this.show_current();
-            break;
+            case 'show current':
+              this.show_current();
+              break;
+            }
+            return;
           }
-        return;
-      }
-      window.setTimeout(this.count_down, 1000);
-    },
-
-    wait_please: function(zmiana_serii) {
-      this.nazwa_cwiczenia_teraz = "Złap oddech";
-      this.aktualne_cwiczenie_obrazek = "data/past.jpg";
-      this.kolejne_cwiczenie = this.exerciseList[this.aktualnecwiczenie - 1].name;
-      if (zmiana_serii == true) {
-        this.reszta_czasu_cwiczenia = 30;
-      }
-      else {
-        this.reszta_czasu_cwiczenia = 15;
-      }
+          window.setTimeout(this.count_down, 1000);
+        },
+        
+        wait_please: function(zmiana_serii) {
+          this.nazwa_cwiczenia_teraz = "Złap oddech";
+          this.aktualne_cwiczenie_obrazek = "data/past.jpg";
+          this.kolejne_cwiczenie = this.exerciseList[this.aktualnecwiczenie - 1].name;
+          this.nastepne_cwiczenie_obrazek = "exercise/" + this.exerciseList[this.aktualnecwiczenie - 1].photo;
+          if (zmiana_serii == true) {
+            this.reszta_czasu_cwiczenia = 30;
+          }
+          else {
+            this.reszta_czasu_cwiczenia = 15;
+          }
       this.timeout_action = 'show current';
       window.setTimeout(this.count_down, 1000);
     },
-  
+    
     laduj_liste: function () {
       axios.get('data/list.json')
       .then(function (response) {
         lista = response.data;
         lista.sort(function(a,b){
-            if (a.name < b.name)
-              return -1;
-            if (a.name > b.name)
-              return 1;
-            return 0;
+          if (a.name < b.name)
+          return -1;
+          if (a.name > b.name)
+          return 1;
+          return 0;
         });
         app.full_list = response.data;
       })
