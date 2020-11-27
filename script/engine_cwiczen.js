@@ -79,7 +79,7 @@ var app = new Vue({
       
       this.kolejne_cwiczenie = null;
       this.nazwa_cwiczenia_teraz = this.exerciseList[this.aktualnecwiczenie - 1].name;
-      this.aktualne_cwiczenie_obrazek = this.exerciseList[this.aktualnecwiczenie - 1].name;
+      this.aktualne_cwiczenie_obrazek = this.exerciseList[this.aktualnecwiczenie - 1].photo;
       this.reszta_czasu_cwiczenia = this.exerciseList[this.aktualnecwiczenie - 1].time;
       this.timeout_action = 'go next';
       window.setTimeout(this.count_down, 1000);
@@ -108,7 +108,7 @@ var app = new Vue({
 
     wait_please: function(zmiana_serii) {
       this.nazwa_cwiczenia_teraz = "Złap oddech";
-      this.aktualne_cwiczenie_obrazek = "past.jpg";
+      this.aktualne_cwiczenie_obrazek = "data/past.jpg";
       this.kolejne_cwiczenie = this.exerciseList[this.aktualnecwiczenie - 1].name;
       if (zmiana_serii == true) {
         this.reszta_czasu_cwiczenia = 30;
