@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient2917">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2913" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop2915" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2909"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#c8c4b7;stop-opacity:1;"
+         offset="0"
+         id="stop2907" />
+    </linearGradient>
+    <radialGradient
+       xlink:href="#linearGradient2917"
+       id="radialGradient2919"
+       cx="108.52199"
+       cy="124.29659"
+       fx="108.52199"
+       fy="124.29659"
+       r="79.807056"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.8062782,-0.24362946)" />
+    <radialGradient
+       xlink:href="#linearGradient2917"
+       id="radialGradient2939"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.8062782,-0.24362946)"
+       cx="108.52199"
+       cy="124.29659"
+       fx="108.52199"
+       fy="124.29659"
+       r="79.807056" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <g
+       id="g2945">
+      <g
+         id="g2935"
+         transform="translate(0,3.4254092)">
+        <circle
+           style="fill:#afdde9;fill-opacity:1;fill-rule:evenodd;stroke:url(#radialGradient2939);stroke-width:23.965;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path14"
+           cx="111.32827"
+           cy="124.05296"
+           r="73.724556" />
+        <rect
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:23.965;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2931"
+           width="176.58868"
+           height="176.5887"
+           x="23.033924"
+           y="35.758614" />
+      </g>
+      <path
+         style="fill:#0088aa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:12.165;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path923"
+         d="M 109.64853,56.610796 86.358698,58.231959 84.737535,34.942129 108.02736,33.320966 Z"
+         transform="matrix(0.48781407,0.66048578,-0.50193573,0.66200425,86.89298,-33.670286)" />
+    </g>
+  </g>
+</svg>
