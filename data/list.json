@@ -2,116 +2,139 @@
     {
       "name": "Brzuszki",
       "file": "brzuszki/brzuszki.md",
-      "time": 20
+      "time": 20,
+      "photo": "brzuszki/brzuszki.jpg"
     },
     {
       "name": "Pompki",
       "file": "pompki/pompki.md",
-      "time": 20
+      "time": 20,
+      "photo": "pompki/pompki.jpg"
     },
     {
       "name": "Squat / Przysiad",
       "file": "przysiad/przysiad.md",
-      "time": 20
+      "time": 20,
+      "photo": "przysiad/przysiad.png"
     },
     {
       "name": "Wypady nóg / Forward Lunges",
       "file": "wypady/wypady.md",
-      "time": 35
+      "time": 35,
+      "photo": "wypady/1wqwe.md.png"
     },
     {
       "name": "Unoszenie nóg w 4 ruchach",
       "file": "nogi_4_ruchy/nogi_4_ruchy.md",
-      "time": 30
+      "time": 30,
+      "photo": "nogi_4_ruchy/4_ruchy"
     },
     {
       "name": "Tricep bench dips / Ćwiczenie na Triceps",
       "file": "triceps/triceps.md",
-      "time": 20
+      "time": 20,
+      "photo": "triceps/fajnecos.png"
     },
     {
       "name": "Stretching pasma Biodrowo-Piszczelowego",
       "file": "rozciąganie_pasma_biodrowo_piszczelowego/stretching_biodrowo-piszczelowego.md",
-      "time": 20
+      "time": 20,
+      "photo": "rozciąganie_pasma_biodrowo_piszczelowego/sklon.png"
     },
     {
       "name": "Step Ups",
       "file": "step_ups/step_ups.md",
-      "time": 25
+      "time": 25,
+      "photo": "step_ups/photo.jpg"
     },
     {
       "name": "Skip A w miejscu / High Knees Running In Place",
       "file": "skip_a/skip_a.md",
-      "time": 20
+      "time": 20,
+      "photo": "skip_a/photor.jpg"
     },
     {
       "name": "Skip B w miejscu",
       "file": "skip_b/skip_b.md",
-      "time": 20
+      "time": 20,
+      "photo": "skip_b/skib_b.png"
     },
     {
       "name": "Skip C w miejscu",
       "file": "skip_c/skip_c.md",
-      "time": 20
+      "time": 20,
+      "photo":"skip_c/wewewewewewewewewew.jpg"
     },
     {
       "name": "Side Plank",
       "file": "side_plank/side_plank.md",
-      "time": 20
+      "time": 20,
+      "photo": "side_plank/photo.jpg"
     },
     {
       "name": "Push-Ups With Torso Rotation",
       "file": "pompki_z_rotacją/rotation.md",
-      "time": 20
+      "time": 20,
+      "photo": "pompki_z_rotacją/rotacja.png"
     },
     {
       "name": "Pompki na podwyższeniu",
       "file": "pompki_ręce_wysoko/pompki_up.md",
-      "time": 20
+      "time": 20,
+      "photo": "pompki_ręce_wysoko/pompki_up.png"
     },
     {
       "name": "Pompki typu V (ze ściśniętymi dłońmi)",
       "file": "pompki_typu_v/v.md",
-      "time": 20
+      "time": 20,
+      "photo": "pompki_typu_v/pompki_v.png"
     },
     {
       "name": "Pompki na kolanach - dłoniach w diament",
       "file": "rece_diament/diament.md",
-      "time": 20
+      "time": 20,
+      "photo": "rece_diament/diament.jpg"
     },
     {
       "name": "Pompki z podparciem stóp o ławeczkę",
       "file": "pompki_nogi_wysoko/lawka.md",
-      "time": 20
+      "time": 20,
+      "photo": "pompki_nogi_wysoko/pompki_nogi_wysoko.png"
     },
     {
       "name": "Naprzemienne spięcia brzucha",
       "file": "naprzemienne_spiecia_brzucha/naprzemienne_spiecia_brzucha.md",
-      "time": 20
+      "time": 20,
+      "photo": "naprzemienne_spiecia_brzucha/spiecia_brzucha.png"
     },
     {
       "name": "Pajacyki",
       "file": "pajacyki/pajacyki.md",
-      "time": 10
+      "time": 10,
+      "photo": "pajacyki/pajacyki.jpg"
     },
     {
       "name": "Krzesło / Wall Sit",
       "file": "krzeslo/krzeslo.md",
-      "time": 20
+      "time": 20,
+      "photo": "krzeslo/krzeslo.jpg"
     },
     {
       "name": "Deska / Plank",
       "file": "deska/deska.md",
-      "time": 20
+      "time": 20,
+      "photo": "deska/deska_plank.jpg"
     },
     {
       "name": "Brzuszki z przysuwaniem kolan do klatki piersiowej",
       "file": "brzuszki_z_przysuwaniem_kolan/brzuszki_z_przysuwaniem_kolan.md",
-      "time": 20
+      "time": 20,
+      "photo": "brzuszki_z_przysuwaniem_kolan/brzuszki_kolana.png"
     },
     {
       "name": "Brzuszki z nogami uniesionymi pionowo i dotykaniem kostek",
       "file": "brzuszki_z_nogami/brzuszki_z_nogami.md",
-      "time": 20
+      "time": 20,
+      "photo": "brzuszki_z_nogami/brzuszki_nogi.png"
     }
   ]
