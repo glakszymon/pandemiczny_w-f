@@ -16,8 +16,9 @@ var app = new Vue({
     aktualne_cwiczenie_obrazek: '',
     seria: 0,
     kolejne_cwiczenie: null,
-    timeout_action: null
-
+    timeout_action: null,
+    nastepne_cwiczenie_obrazek: null
+    
   },
   methods: {
     init: function() {
