@@ -49,7 +49,10 @@
                 <div class="photo">
                   <img :src="aktualne_cwiczenie_obrazek"/>
                 </div>
-                <div v-bind:class="{invisible: (kolejne_cwiczenie == null)}">
+                <div v-bind:class="{text_kolejne_cwiczenie: (kolejne_cwiczenie == null)}">
+                 Kolejnym ćwiczeniem jest:
+                </div>
+                <div v-bind:class="{invisible: (kolejne_cwiczenie == null)}" >
                   {{kolejne_cwiczenie}}
                 </div>
               </div>

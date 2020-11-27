@@ -3,6 +3,18 @@
   font-size: 16px;
 }
 
+.nazwa_cwiczenia {
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: -1px -1px 5px black;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.photo {
+  margin-top: 10px;
+}
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -156,6 +168,7 @@ img {
   color: rgb(36, 36, 36); */
   background-color: rgba(187, 187, 187, 0.568)
 }
+
 .activeButton {
   background-color: rgba(33, 25, 80, 0.568);
 
@@ -187,8 +200,20 @@ body{
   border-radius: 10px;
   }
 
+.text_kolejne_cwiczenie {
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: -1px -1px 5px black;
+  font-weight: 700;
+  font-size: 18px;
+}
+
   .invisible {
     display: none;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
   }
 
   .tytul span {
