@@ -208,12 +208,14 @@ body{
   font-size: 18px;
 }
 
-  .invisible {
-    display: none;
-    margin-top: 5px;
+.next_exercise {
+  margin-top: 5px;
     text-align: center;
     font-size: 16px;
+}
 
+  .invisible {
+    display: none;
   }
 
   .tytul span {
