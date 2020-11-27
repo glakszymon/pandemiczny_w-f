@@ -108,7 +108,7 @@ var app = new Vue({
 
     wait_please: function(zmiana_serii) {
       this.nazwa_cwiczenia_teraz = "Złap oddech";
-      this.aktualne_cwiczenie_obrazek = "data/love.jpg";
+      this.aktualne_cwiczenie_obrazek = "data/past.jpg";
       this.kolejne_cwiczenie = this.exerciseList[this.aktualnecwiczenie - 1].name;
       if (zmiana_serii == true) {
         this.reszta_czasu_cwiczenia = 30;
