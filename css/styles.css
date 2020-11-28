@@ -59,7 +59,6 @@ img {
   width: 50%;
   padding-left: 0 15px;
   padding-top: 0 10px;
-  text-decoration: underline;
   font-weight: 700;
 }
 
@@ -154,6 +153,10 @@ img {
   list-style-type: none;
   text-align: center;
   list-style: none;
+}
+
+.numercwiczenia, .seria {
+  text-decoration: underline;
 }
 
 .panelik ul {
