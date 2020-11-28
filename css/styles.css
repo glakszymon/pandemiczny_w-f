@@ -6,7 +6,7 @@
 .nazwa_cwiczenia {
   margin-top: 10px;
   text-align: center;
-  text-shadow: -1px -1px 5px black;
+  text-shadow: -1px -1px 5px white;
   font-weight: 700;
   font-size: 30px;
 }
@@ -220,7 +220,7 @@ body{
 .text_kolejne_cwiczenie {
   margin-top: 10px;
   text-align: center;
-  text-shadow: -1px -1px 5px black;
+  text-shadow: -1px -1px 5px white;
   font-weight: 700;
   font-size: 18px;
 }
