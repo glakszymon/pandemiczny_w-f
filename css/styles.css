@@ -8,7 +8,7 @@
   text-align: center;
   text-shadow: -1px -1px 5px black;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .photo {
@@ -157,6 +157,8 @@ img {
 
 .numercwiczenia, .seria {
   text-decoration: underline;
+  font-size: 30px;
+  text-align: center;
 }
 
 .panelik ul {
@@ -224,7 +226,7 @@ body{
 }
 
 .nastepne_cwiczenie_rysunek img {
-  width: 250px;
+  width: 300px;
   margin-top: 25px;
 
 }
@@ -245,7 +247,7 @@ body{
 .next_exercise {
   margin-top: 5px;
   text-align: center;
-  font-size: 16px;
+  font-size: 30px;
 }
 
   .invisible {
