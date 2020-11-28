@@ -15,6 +15,10 @@
   margin-top: 10px;
 }
 
+.timer{
+  text-align: center;
+}
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -103,6 +107,14 @@ img {
 .rysunek {
   margin-left: -10px;
   margin-top: 10px;
+}
+
+.zegar {
+  position: relative;
+  overflow: hidden;
+  font-size: 80px;
+  z-index: 1;
+  margin-top: -300px;
 }
 
 .content2 {
@@ -209,7 +221,8 @@ body{
 }
 
 .nastepne_cwiczenie_rysunek {
-  
+  width: 250px;
+  margin-top: 25px;
 }
 
 @keyframes obrot {
