@@ -90,6 +90,7 @@ var app = new Vue({
     
     finish: function() {
       this.nazwa_cwiczenia_teraz = "To juz jest koniec nie ma już nic";
+      mode = 'finish'
     },
     
     count_down: function() {
