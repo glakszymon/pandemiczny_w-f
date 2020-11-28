@@ -223,9 +223,10 @@ body{
   font-size: 18px;
 }
 
-.nastepne_cwiczenie_rysunek {
+.nastepne_cwiczenie_rysunek img {
   width: 250px;
   margin-top: 25px;
+
 }
 
 @keyframes obrot {
