@@ -7,11 +7,35 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200mm"
+   height="200mm"
+   viewBox="0 0 200 200"
    version="1.1"
-   id="svg8">
+   id="svg8"
+   sodipodi:docname="zegar.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="836"
+     id="namedview98"
+     showgrid="false"
+     inkscape:zoom="0.54698373"
+     inkscape:cx="70.515274"
+     inkscape:cy="561.25984"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
   <defs
      id="defs2">
     <linearGradient
@@ -40,7 +64,7 @@
        cy="124.29659"
        fx="108.52199"
        fy="124.29659"
-       r="79.807056"
+       r="79.807053"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(2.8062782,-0.24362946)" />
     <radialGradient
@@ -52,7 +76,7 @@
        cy="124.29659"
        fx="108.52199"
        fy="124.29659"
-       r="79.807056" />
+       r="79.807053" />
   </defs>
   <metadata
      id="metadata5">
@@ -67,7 +91,8 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1">
+     id="layer1"
+     transform="translate(-11.328267,-27.478373)">
     <g
        id="g2945">
       <g
