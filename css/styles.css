@@ -212,6 +212,19 @@ body{
   
 }
 
+@keyframes obrot {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.animation {
+  animation: obrot 1s infinite linear;
+}
+
 .next_exercise {
   margin-top: 5px;
   text-align: center;
