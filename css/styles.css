@@ -58,8 +58,7 @@ img {
 .goleft {
   float: left;
   width: 50%;
-  padding-left: 0 15px;
-  padding-top: 0 10px;
+  text-align: center;
   font-weight: 700;
 }
 
