@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+
+  <title>Pandemiczny W-F</title>
+  <meta name="description" content="Ćwiczenia w okresie pandemii">
+  <meta name="author" content="Szymon Gawrylak">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="text/javascript" src="script/vue.js"></script>
+  <script type="text/javascript" src="script/axios.min.js"></script>
+  <script type="text/javascript" src="script/showdown.min.js"></script>
+
+</head>
+
+<body>
+  <div id="app">
+    <div class="row">
+
+      <div class="header">Pandemiczny W-F</div>
+      <div class="sidenav">
+        <div class ="tytul">
+          <span>Historia twoich ćwiczeń:</span>
+        </div>
+        <ul>
+          <li class="menu_cwiczen"
+          v-for="save in saves">          
+          {{save.data}}
+        </li>
+      </ul>
+    </div> 
+    
+    <div class="content" id="content">
+      <p> <img src="data/love.png"></p>
+    
+    </div>
+  </div>
+  </div>
+
+  <script src="script/engine_end.js"></script>
+</body>
+</html>
