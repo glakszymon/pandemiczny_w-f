@@ -16,16 +16,19 @@ var app = new Vue({
       cwiczenia: []
     },
   },
+  filters: {
+    formatujDate: function(data){
+      console.log(`lololololo`);
+      return "szymek";
+    },
+
+  },
   methods: {
     init: function() {
         this.laduj_liste();
         this.load();
     },
 
-    formatujDate: function(data){
-      console.log(`lololololo`);
-      return "szymek";
-    },
 
     load: function(){
       if (!window.indexedDB) {
