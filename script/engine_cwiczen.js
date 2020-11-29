@@ -108,7 +108,8 @@ var app = new Vue({
     
     finish: function() {
       this.nazwa_cwiczenia_teraz = "To juz jest koniec nie ma już nic";
-      this.mode = 'finish'
+      this.mode = 'finish';
+      this.save();
     },
 
     save: function(){
