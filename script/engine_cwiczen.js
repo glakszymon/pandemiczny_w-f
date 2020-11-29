@@ -7,6 +7,13 @@ var app = new Vue({
     czas: 20,
     mode: '',
 
+    his: {
+      data: null, 
+      czas_trwania: null,
+      serie: null,
+      cwiczenia: []
+    },
+
     aktualnaseria: 0,
     iloscserii: 0,
     aktualnecwiczenie: 0,
@@ -54,6 +61,8 @@ var app = new Vue({
     },
     
     start_cwiczen: function() {
+      this.his.data = new Date ();
+      this.his.serie = this.iloscserii;
       this.mode = 'go';
       this.ilosccwiczen = this.exerciseList.length;
       this.aktualnaseria = 1;
@@ -62,6 +71,14 @@ var app = new Vue({
     },
     
     gonext: function() {
+      if (this.aktualnaseria == 1 && this.aktualnecwiczenie > 0) {
+        var cokolwiek = {
+          "znacznik": this.exerciseList[this.aktualnecwiczenie - 1].znacznik,
+          "czas": this.exerciseList[this.aktualnecwiczenie - 1].time
+
+        }
+        this.his.cwiczenia.push(cokolwiek);
+      }
       this.aktualnecwiczenie ++;
       let zmiana_serii = false;
       if (this.aktualnecwiczenie > this.ilosccwiczen) {
@@ -70,6 +87,7 @@ var app = new Vue({
         zmiana_serii = true;
       }
       if (this.aktualnaseria > this.iloscserii) {
+        this.his.czas = (new Date () - this.his.data)/1000;
         this.finish();
         return;
       }
@@ -91,6 +109,45 @@ var app = new Vue({
     finish: function() {
       this.nazwa_cwiczenia_teraz = "To juz jest koniec nie ma już nic";
       this.mode = 'finish'
+    },
+
+    save: function(){
+      if (!window.indexedDB) {
+        console.log(`Your browser doesn't support IndexedDB`);
+        return;
+      }
+      const request = indexedDB.open('PandemicznyWF', 1);
+      request.onerror = (event) => {
+        console.error(`Database error: ${event.target.errorCode}`);
+      };
+    
+      request.onsuccess = (event) => {
+          const txn = db.transaction('PandemicznyWF', 'readwrite');
+      
+          const store = txn.objectStore('Historia');
+                 
+          let query = store.put(app.his);
+      
+          query.onsuccess = function (event) {
+              console.log(event);
+          };
+
+          query.onerror = function (event) {
+              console.log(event.target.errorCode);
+          }
+      
+          txn.oncomplete = function () {
+              db.close();
+          };
+      }
+
+      request.onupgradeneeded = (event) => {
+        let db = event.target.result;
+
+        let store = db.createObjectStore('Historia', {
+            keyPath: 'data'
+        });
+      };
     },
     
     count_down: function() {
