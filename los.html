@@ -21,7 +21,7 @@
        
     <div class="header">Pandemiczny W-F</div>
     <div class="content2">
-            <div class="konfiguracja" v-bind:class="{invisible: (mode == 'go')}">
+            <div class="konfiguracja" v-bind:class="{invisible: (mode == 'go') || (mode == 'finish')}">
               Czas ćwiczeń: {{czas}} min.
               <input class="slider" type="range" max="65" min="3" v-model="czas"></input>
               <button class="commit" v-on:click="losuj">
