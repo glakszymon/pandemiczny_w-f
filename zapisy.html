@@ -28,7 +28,7 @@
         <ul>
           <li class="menu_cwiczen"
           v-for="save in saves">          
-          {{save.data}}
+          {{save.data | formatujDate}}
         </li>
       </ul>
     </div> 

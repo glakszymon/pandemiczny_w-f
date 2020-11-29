@@ -22,6 +22,10 @@ var app = new Vue({
         this.load();
     },
 
+    formatujDate: function(data){
+      return "szymek";
+    },
+
     load: function(){
       if (!window.indexedDB) {
         console.log(`Your browser doesn't support IndexedDB`);
