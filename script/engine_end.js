@@ -23,8 +23,8 @@ var app = new Vue({
     },
 
     formatujDate: function(data){
-      return "szymek";
       console.log(`lololololo`);
+      return "szymek";
     },
 
     load: function(){
