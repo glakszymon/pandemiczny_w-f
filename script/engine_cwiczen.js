@@ -124,7 +124,7 @@ var app = new Vue({
     
       request.onsuccess = (event) => {
           let db = request.result;
-          const txn = db.transaction('PandemicznyWF', 'readwrite');
+          const txn = db.transaction('Historia', 'readwrite');
       
           const store = txn.objectStore('Historia');
                  
