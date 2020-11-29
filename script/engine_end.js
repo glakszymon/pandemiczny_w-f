@@ -24,6 +24,7 @@ var app = new Vue({
 
     formatujDate: function(data){
       return "szymek";
+      console.log(`lololololo`);
     },
 
     load: function(){
