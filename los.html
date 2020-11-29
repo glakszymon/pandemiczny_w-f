@@ -85,8 +85,11 @@
             <div class="detale" id="content"></div>
             </div>
     </div>
-    <div class="menu" v-bind:class="{invisible: (mode != 'finish')}">
+    <div class=final v-bind:class="{invisible: (mode != 'finish')}">
+      
       <div class="tekst"> Brawo przećwiczyłeś/aś {{czas}} minut ćwiczeń :)</div> 
+      
+      <div class="menu" >
       <ul>
         <li class="menu_cwiczen" onclick="location.href = 'los.html'">          
           ponowne losowanie ćwiczeń
@@ -95,6 +98,7 @@
           Strona główna
       </li>
     </ul>
+    </div>
   </div>
 
 </div>
