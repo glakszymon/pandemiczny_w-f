@@ -3,138 +3,161 @@
       "name": "Brzuszki",
       "file": "brzuszki/brzuszki.md",
       "time": 20,
-      "photo": "brzuszki/brzuszki.gif"
+      "photo": "brzuszki/brzuszki.gif",
+      "znacznik": 23
     },
     {
       "name": "Pompki",
       "file": "pompki/pompki.md",
       "time": 20,
-      "photo": "pompki/pompki.gif"
+      "photo": "pompki/pompki.gif",
+      "znacznik": 22
     },
     {
       "name": "Squat / Przysiad",
       "file": "przysiad/przysiad.md",
       "time": 20,
-      "photo": "przysiad/soaosoa.gif"
+      "photo": "przysiad/soaosoa.gif",
+      "znacznik": 21
     },
     {
       "name": "Wypady nóg / Forward Lunges",
       "file": "wypady/wypady.md",
-      "time": 35,
-      "photo": "wypady/wypady.gif"
+      "time": 20,
+      "photo": "wypady/wypady.gif",
+      "znacznik": 20
     },
     {
       "name": "Unoszenie nóg w 4 ruchach",
       "file": "nogi_4_ruchy/nogi_4_ruchy.md",
-      "time": 30,
-      "photo": "nogi_4_ruchy/4_ruchy.gif"
+      "time": 20,
+      "photo": "nogi_4_ruchy/4_ruchy.gif",
+      "znacznik": 19
     },
     {
       "name": "Tricep bench dips / Ćwiczenie na Triceps",
       "file": "triceps/triceps.md",
       "time": 20,
-      "photo": "triceps/triceps.gif"
+      "photo": "triceps/triceps.gif",
+      "znacznik": 18
     },
     {
       "name": "Stretching pasma Biodrowo-Piszczelowego",
       "file": "rozciąganie_pasma_biodrowo_piszczelowego/stretching_biodrowo-piszczelowego.md",
       "time": 20,
-      "photo": "rozciąganie_pasma_biodrowo_piszczelowego/loololo.gif"
+      "photo": "rozciąganie_pasma_biodrowo_piszczelowego/loololo.gif",
+      "znacznik": 17
     },
     {
       "name": "Step Ups",
       "file": "step_ups/step_ups.md",
-      "time": 25,
-      "photo": "step_ups/step_ups.gif"
+      "time": 20,
+      "photo": "step_ups/step_ups.gif",
+      "znacznik": 16
     },
     {
       "name": "Skip A w miejscu / High Knees Running In Place",
       "file": "skip_a/skip_a.md",
       "time": 20,
-      "photo": "skip_a/skip_a.gif"
+      "photo": "skip_a/skip_a.gif",
+      "znacznik": 15
     },
     {
       "name": "Skip B w miejscu",
       "file": "skip_b/skip_b.md",
       "time": 20,
-      "photo": "skip_b/skip_b.gif"
+      "photo": "skip_b/skip_b.gif",
+      "znacznik": 14
     },
     {
       "name": "Skip C w miejscu",
       "file": "skip_c/skip_c.md",
       "time": 20,
-      "photo":"skip_c/skip_c.gif"
+      "photo":"skip_c/skip_c.gif",
+      "znacznik": 13
     },
     {
       "name": "Side Plank",
       "file": "side_plank/side_plank.md",
       "time": 20,
-      "photo": "side_plank/photo.jpg"
+      "photo": "side_plank/photo.jpg",
+      "znacznik": 12
     },
     {
       "name": "Push-Ups With Torso Rotation",
       "file": "pompki_z_rotacją/rotation.md",
       "time": 20,
-      "photo": "pompki_z_rotacją/rotacja.png"
+      "photo": "pompki_z_rotacją/rotacja.png",
+      "znacznik": 11
     },
     {
       "name": "Pompki na podwyższeniu",
       "file": "pompki_ręce_wysoko/pompki_up.md",
       "time": 20,
-      "photo": "pompki_ręce_wysoko/ololol.gif"
+      "photo": "pompki_ręce_wysoko/ololol.gif",
+      "znacznik": 10
     },
     {
       "name": "Pompki typu V (ze ściśniętymi dłońmi)",
       "file": "pompki_typu_v/v.md",
       "time": 20,
-      "photo": "pompki_typu_v/V.gif"
+      "photo": "pompki_typu_v/V.gif",
+      "znacznik": 9
     },
     {
       "name": "Pompki na kolanach - dłoniach w diament",
       "file": "rece_diament/diament.md",
       "time": 20,
-      "photo": "rece_diament/pompki_diament.gif"
+      "photo": "rece_diament/pompki_diament.gif",
+      "znacznik": 8
     },
     {
       "name": "Pompki z podparciem stóp o ławeczkę",
       "file": "pompki_nogi_wysoko/lawka.md",
       "time": 20,
-      "photo": "pompki_nogi_wysoko/anime.gif"
+      "photo": "pompki_nogi_wysoko/anime.gif",
+      "znacznik": 7
     },
     {
       "name": "Naprzemienne spięcia brzucha",
       "file": "naprzemienne_spiecia_brzucha/naprzemienne_spiecia_brzucha.md",
       "time": 20,
-      "photo": "naprzemienne_spiecia_brzucha/spiecia_brzucha.png"
+      "photo": "naprzemienne_spiecia_brzucha/spiecia_brzucha.png",
+      "znacznik": 6
     },
     {
       "name": "Pajacyki",
       "file": "pajacyki/pajacyki.md",
-      "time": 10,
-      "photo": "pajacyki/pajacyki.gif"
+      "time": 20,
+      "photo": "pajacyki/pajacyki.gif",
+      "znacznik": 5
     },
     {
       "name": "Krzesło / Wall Sit",
       "file": "krzeslo/krzeslo.md",
       "time": 20,
-      "photo": "krzeslo/krzeslo.gif"
+      "photo": "krzeslo/krzeslo.gif",
+      "znacznik": 4
     },
     {
       "name": "Deska / Plank",
       "file": "deska/deska.md",
       "time": 20,
-      "photo": "deska/deska.gif"
+      "photo": "deska/deska.gif",
+      "znacznik": 3
     },
     {
       "name": "Brzuszki z przysuwaniem kolan do klatki piersiowej",
       "file": "brzuszki_z_przysuwaniem_kolan/brzuszki_z_przysuwaniem_kolan.md",
       "time": 20,
-      "photo": "brzuszki_z_przysuwaniem_kolan/brzuszk-kolana-kltka-piersiowai.gif"
+      "photo": "brzuszki_z_przysuwaniem_kolan/brzuszk-kolana-kltka-piersiowai.gif",
+      "znacznik": 2
     },
     {
       "name": "Brzuszki z nogami uniesionymi pionowo i dotykaniem kostek",
       "file": "brzuszki_z_nogami/brzuszki_z_nogami.md",
       "time": 20,
-      "photo": "brzuszki_z_nogami/brzuszki-z-nogami-w-górze.gif"
+      "photo": "brzuszki_z_nogami/brzuszki-z-nogami-w-górze.gif",
+      "znacznik": 1
     }
   ]
