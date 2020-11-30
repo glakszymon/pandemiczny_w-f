@@ -33,7 +33,7 @@
       </ul>
     </div> 
     
-    <div class="content" id="content">
+    <div v-if="current_save" class="content" id="content">
       <div class="data_startu">
         Ćwiczenia zaczęto {{current_save.data | formatujDate}}.
       </div>
