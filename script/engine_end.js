@@ -18,8 +18,7 @@ var app = new Vue({
   },
   filters: {
     formatujDate: function(data){
-      console.log(`lololololo`);
-      return "szymek";
+      return data.toLocaleDateString() + " " + data.toLocaleTimeString();
     },
 
   },
