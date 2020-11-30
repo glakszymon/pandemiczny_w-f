@@ -22,7 +22,7 @@ var app = new Vue({
       return data.toLocaleDateString() + " " + data.toLocaleTimeString();
     },
     podaj_nazwe: function(znacznik){
-      var y = this.full_list.find((x) => {return x.znacznik == znacznik});
+      var y = app.full_list.find((x) => {return x.znacznik == znacznik});
       return y.name
     },
   },
