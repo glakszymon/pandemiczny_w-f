@@ -26,15 +26,31 @@
           <span>Historia twoich ćwiczeń:</span>
         </div>
         <ul>
-          <li class="menu_cwiczen"
-          v-for="save in saves">          
+          <li class="menu_cwiczen" v-on:click="show_details(index)"
+          v-for="(save, index) in saves">          
           {{save.data | formatujDate}}
         </li>
       </ul>
     </div> 
     
     <div class="content" id="content">
-      <p> <img src="data/love.png"></p>
+      <div class="data_startu">
+        Ćwiczenia zaczęto {{current_save.data | formatujDate}}.
+      </div>
+      <div class="czas_trwania_starych_cwiczen">
+        {{current_save.czas_trwania}}
+      </div>
+      <div class="ilosc_serii">
+        {{current_save.serie}}
+      </div>
+      <div class="lista_cwiczenH">
+        Wykonane ćwiczenia:
+        <ul>
+          <li v-for="x in current_save.cwiczenia">
+              {{x.znacznik | podaj_nazwe}} [{{x.czas}} sek.]              
+          </li>
+        </ul>
+      </div>
     
     </div>
   </div>

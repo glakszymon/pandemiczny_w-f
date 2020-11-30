@@ -2,9 +2,10 @@ var app = new Vue({
   el: '#app',
   data: {
     saves: [],
+    current_save: null,
+    full_list: [],
 
     exerciseList: [],
-    full_list: [],
     currentFile: null,
     czas: 20,
     mode: '',
@@ -20,14 +21,21 @@ var app = new Vue({
     formatujDate: function(data){
       return data.toLocaleDateString() + " " + data.toLocaleTimeString();
     },
-
+    podaj_nazwe: function(znacznik){
+      var y = this.full_list.find((x) => {return x.znacznik == znacznik});
+      return y.name
+    },
   },
+
   methods: {
     init: function() {
         this.laduj_liste();
         this.load();
     },
 
+    show_details: function(index){
+      this.current_save = this.saves[index];
+    },
 
     load: function(){
       if (!window.indexedDB) {
