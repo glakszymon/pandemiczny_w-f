@@ -1,4 +1,4 @@
-# Stretching Pasma Biodrowo-Piszczelowego
+# Skłony ze skrzyżowanymi nogami
 
 ### Opis:
 1. Pozycja stojąca. 

@@ -1,4 +1,4 @@
-# Push-Ups With Torso Rotation
+# Pompki z rotacją
 
 ### Opis:
 1. Należy ułożyć się płasko na brzuchu, ręce natomiast położyć na podłożu na wysokości barków, ale nieco szerzej niż szerokość barków. 

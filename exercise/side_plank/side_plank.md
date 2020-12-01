@@ -1,4 +1,4 @@
-# Side Plank
+# Side Plank / deska bokiem
 
 ### Opis:
 1. Podpór bokiem na przedramieniu, ramię ugięte pod kątem 90 stopni, górna część prostopadle do podłoża. Kończyny dolne złączone, wyprostowane, w jednej linii z tułowiem i ułożone równolegle do podłoża.
