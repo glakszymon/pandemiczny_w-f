@@ -8,7 +8,7 @@
 5. Powtarzamy ćwiczenie.
 
 ### Zdjęcie:
-![](exercise/pompki_nogi_wysoko/pompki_nogi_wysoko.jpg)
+![](exercise/pompki_nogi_wysoko/pompki_nogi_wysoko.png)
 
 ### Pracujące mięśnie:
 ![](exercise/pompki_nogi_wysoko/nogi-wyżej.png)

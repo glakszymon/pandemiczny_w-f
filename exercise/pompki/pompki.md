@@ -8,7 +8,7 @@
 5. Powtarzamy ćwiczenie.
 
 ### Zdjęcie:
-![](exercise/pompki/pompki.png)
+![](exercise/pompki/pompki.jpg)
 
 ### Pracujące mięśnie:
 ![](exercise/pompki/pompki.png)

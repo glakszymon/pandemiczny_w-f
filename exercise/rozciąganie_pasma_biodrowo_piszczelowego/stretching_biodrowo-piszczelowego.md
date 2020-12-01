@@ -7,7 +7,7 @@
 4. Wracamy do pozycji wyjściowej. 
 
 ### Zdjęcie:
-![](exercise/rozciąganie_pasma_biodrowo_piszczelowego/sklon.jpg)
+![](exercise/rozciąganie_pasma_biodrowo_piszczelowego/sklon.png)
 
 ### Pracujące mięśnie:
 ![](exercise/rozciąganie_pasma_biodrowo_piszczelowego/sklony.png)

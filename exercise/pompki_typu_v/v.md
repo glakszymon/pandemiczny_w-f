@@ -7,7 +7,7 @@ Punktem stabilnego podparcia ciała muszą być dłonie zaciśnięte w pięści,
 3. Wykorzystując siłę rąk i napinając mięśnie klatki piersiowej, powróć do pozycji wyjściowej.
 
 ### Zdjęcie:
-![](exercise/pompki_typu_v/pompki_V.jpg)
+![](exercise/pompki_typu_v/pompki_V.png)
 
 ### Pracujące mięśnie:
 ![](exercise/pompki_typu_v/v.png)

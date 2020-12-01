@@ -9,7 +9,7 @@
 6. Wykonaj ruch wyznaczoną liczbę powtórzeń.
 
 ### Zdjęcie:
-![](exercise/pompki_ręce_wysoko/pompki_up.jpg)
+![](exercise/pompki_ręce_wysoko/pompki_up.png)
 
 ### Pracujące mięśnie:
 ![](exercise/pompki_ręce_wysoko/pompki_up_.png)
