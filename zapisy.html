@@ -40,13 +40,12 @@
       <div class="czas_trwania_starych_cwiczen">
         {{current_save.czas_trwania}}
       </div>
-      <div class="ilosc_serii">
-        {{current_save.serie}}
-      </div>
       <div class="lista_cwiczenH">
         Wykonane ćwiczenia:
+      </div>
+      <div>
         <ul>
-          <li v-for="x in current_save.cwiczenia">
+          <li v-for="x in current_save.cwiczenia" class="lista">
               {{x.znacznik | podaj_nazwe}} [{{current_save.serie}} x {{x.czas}} sek.]              
           </li>
         </ul>
