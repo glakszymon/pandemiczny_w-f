@@ -38,6 +38,8 @@ img {
   color: #fff;
   padding: 25px;
   cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .menu {
