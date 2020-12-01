@@ -41,7 +41,7 @@
                   <div class="timer">
                     <img src="data/zegar.svg" class="animation"/>
                       <div class="zegar">
-                        {{reszta_czasu_cwiczenia}} s
+                        {{reszta_czasu_cwiczenia}} s.
                       </div>
                   </div>
               </div>
@@ -70,7 +70,7 @@
             <div class="row" v-bind:class="{invisible: (mode != 'polosowaniu')}">
               <div class="panelik">
                 <button class="start" v-on:click="start_cwiczen" style="margin-top: 1%; margin-left: 72%;">
-                  Start ćwiczeń 3333333333333333333333333333
+                  Start ćwiczeń
                 </button>
                 <div class ="tytulik">
                   <span>Lista wylosowanych ćwiczeń:</span>
@@ -78,7 +78,7 @@
                 <ul>
                   <li class="lista_cwiczen" v-bind:class="{activeButton: (exercise.file == currentFile)}"
                   v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)">         
-                 {{exercise.name}} [{{engine_cwiczen.app.loscserii}} x 20 sek.]
+                 {{exercise.name}} [{{engine_cwiczen.loscserii}} x 20 sek.]
             </li>
           </ul>
             </div>
