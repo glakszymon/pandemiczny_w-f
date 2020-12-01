@@ -78,7 +78,7 @@
                 <ul>
                   <li class="lista_cwiczen" v-bind:class="{activeButton: (exercise.file == currentFile)}"
                   v-for="exercise in exerciseList" v-on:click="opis_cwiczenia(exercise)">         
-                 {{exercise.name}} [{{app.loscserii}} x 20 sek.]
+                 {{exercise.name}} [{{engine_cwiczen.app.loscserii}} x 20 sek.]
             </li>
           </ul>
             </div>
