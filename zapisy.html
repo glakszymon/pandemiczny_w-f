@@ -47,7 +47,7 @@
         Wykonane ćwiczenia:
         <ul>
           <li v-for="x in current_save.cwiczenia">
-              {{x.znacznik | podaj_nazwe}} [{{x.czas}} sek.]              
+              {{x.znacznik | podaj_nazwe}} [{{current_save.serie}} x {{x.czas}} sek.]              
           </li>
         </ul>
       </div>

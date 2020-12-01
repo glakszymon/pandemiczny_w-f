@@ -48,6 +48,12 @@ img {
   margin-top: 15px;
 }
 
+.data_startu {
+  margin-top: 5px;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
 /* Style the side navigation */
 .sidenav {
   float: left;
