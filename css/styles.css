@@ -25,6 +25,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.kalendarz {
+  background-image: "data/kalendarz.png";
+}
+
 img {
   display: block;
   max-width: 500px;
