@@ -290,6 +290,15 @@ body{
   display: none;
 }
 
+.slide img {
+	max-width: 960px;
+}
+
+.slide img {
+	max-width: 960px;
+	border-radius: 20px;
+}
+
 .tytul span {
 font-size: 22px;
 }
