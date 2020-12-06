@@ -27,6 +27,7 @@ body {
 
 .kalendarz {
   background-image: "data/kalendarz.png";
+  background-size: 80% auto;
 }
 
 img {
