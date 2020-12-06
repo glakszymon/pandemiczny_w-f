@@ -27,7 +27,15 @@ body {
 
 .kalendarz {
   background-image: url("../data/kalendarz.png");
-  /* background-size: 80% auto; */
+  background-size: 500px auto;
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  padding-top: 200px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 img {
