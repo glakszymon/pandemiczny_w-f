@@ -36,6 +36,8 @@ body {
   padding-top: 200px;
   padding-left: 70px;
   padding-right: 70px;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
 img {
@@ -284,28 +286,42 @@ body{
   font-size: 30px;
 }
 
-  .invisible {
-    display: none;
-  }
+.invisible {
+  display: none;
+}
 
-  .tytul span {
-  font-size: 22px;
-  }
+.tytul span {
+font-size: 22px;
+}
 
-  .konfiguracja {
-    padding: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    border: 1px #8c7d7d solid ;
-  }
+.day {
+  min-width: 55px;
+  padding: 0;
+  margin-top: 15px;
+  height: 50px;
+  background-color: #bdbc00;
+  border-color: #7e7e00;
+  border-radius: 7px;
+}
+
+.linijka {
+  text-align: center;
+}
+
+.konfiguracja {
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px #8c7d7d solid ;
+}
 
   h1 {
     font-size: 30px;
     border-bottom: 1px black;
     border-bottom-style: solid;
   }
-  
+
   h2 {
     font-size: 25px;
   }
