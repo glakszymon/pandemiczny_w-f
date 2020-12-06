@@ -20,7 +20,7 @@
   <div class="kalendarz">
     <div class="linijka">  
         <button class = "day" v-bind:class="{disabled: (1 > currentday)}">1</button> 
-        <button class = "day" v-bind:disabled="{2 >= currentday}">2</button> 
+        <button class = "day" v-bind:disabled="{(2 >= currentday)}">2</button> 
         <button class = "day" v-bind:disabled="{disabled: (currentday &lt; 3)}">3</button>
         <button class = "day" v-bind:disabled="{disabled: (currentday &lt; 4)}">4</button>
         <button class = "day" v-bind:disabled="{disabled: (currentday &lt; 5)}">5</button>
