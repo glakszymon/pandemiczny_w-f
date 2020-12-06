@@ -290,8 +290,9 @@ body{
   display: none;
 }
 
-.slide img {
-	max-width: 960px;
+.slide {
+  max-width: 960px;
+  margin-top: 30px;
 }
 
 .slide img {
