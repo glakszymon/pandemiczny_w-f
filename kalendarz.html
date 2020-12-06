@@ -31,7 +31,7 @@
         <button class = "day">8</button> 
         <button class = "day">9</button>
         <button class = "day" v-bind:class="{disabled: (currentday >= 10)}">10</button>
-        <button class = "day" v-bind:class="{disabled: (currentday >= 11)}">11</button>
+        <button class = "day" v-bind:disabled="{disabled: (currentday >= 11)}">11</button>
         <button class = "day">12</button>
     </div>  
     <div class="linijka">  
