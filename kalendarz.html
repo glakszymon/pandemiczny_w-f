@@ -17,39 +17,42 @@
 <body>
 <div id="app">
   <div class="header" onclick="location.href = 'index.html'">Szymon Gawrylak "Pandemiczny W-F"</div>
-  <div class="kalendarz">
+  <div class="kalendarz" v-if="mode == 'kalendarz'">
     <div class="linijka">  
-        <button class = "day" v-bind:disabled="1 > currentday">1</button> 
-        <button class = "day" v-bind:disabled="2 > currentday">2</button> 
-        <button class = "day" v-bind:disabled="3 > currentday">3</button>
-        <button class = "day" v-bind:disabled="4 > currentday">4</button>
-        <button class = "day" v-bind:disabled="5 > currentday">5</button>
-        <button class = "day" v-bind:disabled="6 > currentday">6</button>
+        <button class = "day" v-bind:disabled="1 > currentday" v-on:click='show_slide(1)'>1</button> 
+        <button class = "day" v-bind:disabled="2 > currentday" v-on:click='show_slide(2)'>2</button> 
+        <button class = "day" v-bind:disabled="3 > currentday" v-on:click='show_slide(3)'>3</button>
+        <button class = "day" v-bind:disabled="4 > currentday" v-on:click='show_slide(4)'>4</button>
+        <button class = "day" v-bind:disabled="5 > currentday" v-on:click='show_slide(5)'>5</button>
+        <button class = "day" v-bind:disabled="6 > currentday" v-on:click='show_slide(6)'>6</button>
     </div>  
     <div class="linijka">  
-        <button class = "day" v-bind:disabled="7 > currentday">7</button> 
-        <button class = "day" v-bind:disabled="8 > currentday">8</button> 
-        <button class = "day" v-bind:disabled="9 > currentday">9</button>
-        <button class = "day" v-bind:disabled="10 > currentday">10</button>
-        <button class = "day" v-bind:disabled="11 > currentday">11</button>
-        <button class = "day" v-bind:disabled="12 > currentday">12</button>
+        <button class = "day" v-bind:disabled="7 > currentday" v-on:click='show_slide(7)'>7</button> 
+        <button class = "day" v-bind:disabled="8 > currentday" v-on:click='show_slide(8)'>8</button> 
+        <button class = "day" v-bind:disabled="9 > currentday" v-on:click='show_slide(9)'>9</button>
+        <button class = "day" v-bind:disabled="10 > currentday" v-on:click='show_slide(10)'>10</button>
+        <button class = "day" v-bind:disabled="11 > currentday" v-on:click='show_slide(11)'>11</button>
+        <button class = "day" v-bind:disabled="12 > currentday" v-on:click='show_slide(13)'>12</button>
     </div>  
     <div class="linijka">  
-        <button class = "day" v-bind:disabled="13 > currentday">13</button> 
-        <button class = "day" v-bind:disabled="14 > currentday">14</button> 
-        <button class = "day" v-bind:disabled="15 > currentday">15</button>
-        <button class = "day" v-bind:disabled="16 > currentday">16</button>
-        <button class = "day" v-bind:disabled="17 > currentday">17</button>
-        <button class = "day" v-bind:disabled="18 > currentday">18</button>
+        <button class = "day" v-bind:disabled="13 > currentday" v-on:click='show_slide(13)'>13</button> 
+        <button class = "day" v-bind:disabled="14 > currentday" v-on:click='show_slide(14)'>14</button> 
+        <button class = "day" v-bind:disabled="15 > currentday" v-on:click='show_slide(15)'>15</button>
+        <button class = "day" v-bind:disabled="16 > currentday" v-on:click='show_slide(16)'>16</button>
+        <button class = "day" v-bind:disabled="17 > currentday" v-on:click='show_slide(17)'>17</button>
+        <button class = "day" v-bind:disabled="18 > currentday" v-on:click='show_slide(18)'>18</button>
     </div>
     <div class="linijka">  
-        <button class = "day" v-bind:disabled="19 > currentday">19</button> 
-        <button class = "day" v-bind:disabled="20 > currentday">20</button> 
-        <button class = "day" v-bind:disabled="21 > currentday">21</button>
-        <button class = "day" v-bind:disabled="22 > currentday">22</button>
-        <button class = "day" v-bind:disabled="23 > currentday">23</button>
-        <button class = "day" v-bind:disabled="24 > currentday">24</button>
+        <button class = "day" v-bind:disabled="19 > currentday" v-on:click='show_slide(19)'>19</button> 
+        <button class = "day" v-bind:disabled="20 > currentday" v-on:click='show_slide(20)'>20</button> 
+        <button class = "day" v-bind:disabled="21 > currentday" v-on:click='show_slide(21)'>21</button>
+        <button class = "day" v-bind:disabled="22 > currentday" v-on:click='show_slide(22)'>22</button>
+        <button class = "day" v-bind:disabled="23 > currentday" v-on:click='show_slide(23)'>23</button>
+        <button class = "day" v-bind:disabled="24 > currentday" v-on:click='show_slide(24)'>24</button>
     </div>    
+  </div>
+  <div class="slide" v-if="mode == 'slide'">
+      <img :src="slide_file"/>
   </div>
       
   <script src="script/calendar.js"></script> 
