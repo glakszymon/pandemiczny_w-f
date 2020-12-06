@@ -19,7 +19,7 @@
   <div class="header" onclick="location.href = 'index.html'">Szymon Gawrylak "Pandemiczny W-F"</div>
   <div class="kalendarz">
     <div class="linijka">  
-        <button class = "day" v-bind:disabled="{disabled: (currentday &lt; 1)}">1</button> 
+        <button class = "day" v-bind:disabled="{disabled: (1 >= currentday)}">1</button> 
         <button class = "day" v-bind:disabled="{disabled: (currentday &lt; 2)}">2</button> 
         <button class = "day" v-bind:disabled="{disabled: (currentday &lt; 3)}">3</button>
         <button class = "day" v-bind:disabled="{disabled: (currentday &lt; 4)}">4</button>
