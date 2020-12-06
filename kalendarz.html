@@ -55,7 +55,7 @@
       <img :src="slide_file"/>
   </div>
   <div>
-      <button class="restart" v-on:click='reset'>Powrót do kalendarza</button>
+      <button class="restart" v-on:click='reset' v-bind:class="{invisible: (mode != 'slide')}">Powrót do kalendarza</button>
   </div>
       
   <script src="script/calendar.js"></script> 
