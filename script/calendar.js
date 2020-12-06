@@ -14,6 +14,10 @@ var app = new Vue({
     show_slide: function(number) {
       this.slide_file = "data/kalendarz_sportu/slide"+number+".jpg";
       this.mode = 'slide';
+    },
+
+    reset: function() {
+      this.mode = 'kalendarz';
     }
 
   }
