@@ -294,6 +294,11 @@ body{
 font-size: 22px;
 }
 
+.inactiveday {
+  background-color: rgb(192, 192, 192);
+  
+}
+
 .day {
   min-width: 55px;
   padding: 0;
@@ -301,6 +306,7 @@ font-size: 22px;
   height: 50px;
   background-color: #bdbc00;
   border-color: #7e7e00;
+  cursor: pointer;
   border-radius: 7px;
 }
 

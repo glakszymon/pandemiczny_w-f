@@ -10,26 +10,28 @@
 
   <link rel="stylesheet" href="css/styles.css">
 
+  <script type="text/javascript" src="script/vue.js"></script>
 
 </head>
 
 <body>
+<div id="app">
   <div class="header" onclick="location.href = 'index.html'">Szymon Gawrylak "Pandemiczny W-F"</div>
   <div class="kalendarz">
     <div class="linijka">  
-        <button class = "day">1</button> 
+        <button class = "day" v-bind:disabled="{disabled: (currentday >= 1)}">1</button> 
         <button class = "day">2</button> 
         <button class = "day">3</button>
         <button class = "day">4</button>
         <button class = "day">5</button>
-        <button class = "day">6</button>
+        <button class = "day" v-bind:class="{disabled: (currentday >= 6)}">6</button>
     </div>  
     <div class="linijka">  
         <button class = "day">7</button> 
         <button class = "day">8</button> 
         <button class = "day">9</button>
-        <button class = "day">10</button>
-        <button class = "day">11</button>
+        <button class = "day" v-bind:class="{disabled: (currentday >= 10)}">10</button>
+        <button class = "day" v-bind:class="{disabled: (currentday >= 11)}">11</button>
         <button class = "day">12</button>
     </div>  
     <div class="linijka">  
@@ -50,6 +52,7 @@
     </div>    
   </div>
       
-  <script src="script/engine.js"></script> 
+  <script src="script/sport.js"></script> 
+</div>
 </body>
 </html>
